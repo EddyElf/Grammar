@@ -1,0 +1,752 @@
+/* ==========================================================================
+   GLOBAL STYLES & RESPONSIVE RESET
+   ========================================================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 100%; 
+    font-family: 'Merriweather', Georgia, serif;
+}
+
+button, 
+input, 
+select, 
+textarea {
+    font-family: inherit;
+}
+
+body {
+    background-color: #293043;
+    color: #008000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 0;
+}
+
+/* Screen Wrapper Management */
+.screen {
+    box-sizing: border-box;
+    background: #cbd5e0;
+    border-radius: 0;
+    box-shadow: none;
+    padding: clamp(0.4rem, 2vh, 1rem) clamp(0.5rem, 2vw, 1.5rem); 
+    border: 0.5rem solid #ffd700;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Global Button Archetype */
+.btn {
+    padding: clamp(0.4rem, 1.5vh, 0.625rem) clamp(0.6rem, 1.5vw, 1.25rem);
+    font-size: clamp(0.85rem, 2vh, 1rem);
+    font-weight: 700;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.primary-btn {
+    background-color: #008000;
+    color: #ffd700;
+    border-radius: 1rem;
+    border: 0.18rem solid #801380;
+}
+
+.primary-btn:hover {
+    background-color: #ffd700;
+    color: #008000;
+    border: 0.18rem solid #801380;
+    border-radius: 1rem;
+    font-weight: 700;
+}
+
+/* ==========================================================================
+   1. WELCOME SCREEN STYLING (FLUID GRID)
+   ========================================================================== */
+#welcome-screen {
+    width: 100%;
+    max-width: 42rem;   
+    height: auto;       
+    max-height: 95vh;   
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
+    padding: clamp(1rem, 3vh, 2rem) clamp(1rem, 3vw, 2rem);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+   h1 {
+    font-size: clamp(2rem, 8vh, 3.6rem);
+    text-align: center;
+    font-weight: 900;
+    color: #801380;
+    margin-bottom: clamp(0.5rem, 2vh, 1.25rem);
+}
+
+.config-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.config-panel h2 {
+    font-size: clamp(1.2rem, 4vh, 1.8rem);
+    color: #801380;
+    text-align: center;
+    border-bottom: 0.25rem solid #ffd700;
+    padding-bottom: 0.5rem;
+    margin-bottom: clamp(0.5rem, 2vh, 1.25rem);
+}
+
+/* Creates the two-column split for configuration items */
+.config-row-two-col {
+    display: flex;
+    gap: clamp(1rem, 3vw, 2rem);
+    margin-bottom: clamp(0.5rem, 2vh, 1.25rem);
+}
+
+@media (max-width: 480px) {
+    .config-row-two-col {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+/* Individual layout columns inside the row split */
+.config-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.5rem, 1.5vh, 1rem);
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.input-group > label {
+    font-weight: 700;
+    font-size: clamp(0.85rem, 1.8vh, 0.95rem);
+}
+
+.input-group select,
+.input-group input[type="text"] {
+    padding: clamp(0.4rem, 1.2vh, 0.6rem) 0.75rem;
+    font-size: clamp(0.85rem, 1.8vh, 0.95rem);
+    font-weight: 700;
+    color: #801380;
+    border: 0.125rem solid #008000;
+    border-radius: 0.25rem;
+    width: 100%;
+    outline: none;
+    background-color: #ffffff;
+}
+
+.input-group select:focus,
+.input-group input[type="text"]:focus {
+    border-color: #008000;
+}
+
+/* Selection Mode Radios alignment */
+.radio-group {
+    display: flex;
+    flex-direction: column;  
+    gap: 0.65rem;
+    margin-top: 0.25rem;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #801380;
+}
+
+/* Changes the radio buttons from blue to green and scales them cleanly */
+.radio-group input[type="radio"] {
+    -webkit-appearance: none !important;
+    appearance: none !important; /* Strips browser defaults completely */
+    background-color: #ffffff !important; /* Your clean unchosen background */
+    margin: 0;
+    width: 1.25rem;        
+    height: 1.25rem;  
+    border: 0.125rem solid #008000 !important; /* Clean border matching text */
+    border-radius: 50% !important;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    transition: all 0.15s ease-in-out;
+}
+
+/* Chosen / Checked state (Forces the look even when disabled) */
+.radio-group input[type="radio"]:checked {
+    background-color: #ffd700 !important; /* Changes that inner background ring to green */
+    border-color: #008000 !important;     /* Changes the outer border to match the green theme */
+}
+
+/* Creates the custom inner circle dot */
+.radio-group input[type="radio"]:checked::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0.55rem;
+    height: 0.55rem;
+    border-radius: 50%;
+}
+
+/* Keeps the buttons looking appropriately locked down while preserving your colors */
+.radio-group input[type="radio"]:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Snugs the text input container right up below the radio options */
+#number-input-container {
+    margin-top: -0.15rem;       /* Closes up the gap to sit right below the text */
+}
+
+/* Creates the 3-column split for images and the start button */
+.config-row-three-col {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.75rem;
+}
+
+.bottom-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#start-btn {
+    width: 72%;
+    font-size: 1.35rem;
+    padding: 0.5rem;
+    letter-spacing: 0.13rem;
+    word-spacing: 0.18rem;
+}
+
+/* ==========================================================================
+   2. GAME PLAY SCREEN HEADER - CONTAINER POSITIONING
+   ========================================================================== */
+
+/* 1. SHRINK SIDE & TOP PADDING FOR ALL 3 ROWS AT ONCE */
+#play-screen {
+    width: 100vw;      
+    height: 100vh;    
+    border-radius: 0;   
+    box-shadow: none;
+    padding: clamp(0.25rem, 1.5vh, 0.5rem) clamp(0.5rem, 1.5vw, 0.75rem);
+}
+
+/* 2. POSITION THE TOP BAR CONTAINER */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;    
+    padding-top: 0rem;         
+    padding-bottom: 0.35rem;   
+    border-bottom: 0.25rem solid #ffd700;
+    margin-bottom: clamp(0.3rem, 1.5vh, 0.6rem);
+}
+
+/* Forces left and right blocks to scale identically, keeping the clock dead-center */
+.left-controls,
+.right-controls {
+    display: flex;
+    flex: 1 1 0%;
+    min-width: 0;
+    gap: 0.5rem; 
+}
+
+.left-controls {
+    justify-content: flex-start;
+}
+
+.right-controls {
+    justify-content: flex-end;
+}
+
+/* Compact clock space boundary */
+.center-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 5.5rem; 
+    min-width: 20%;
+}
+
+/* UNCHANGED BUTTONS: Kept at your exact 2.25rem preferred height */
+.left-controls .btn,
+.right-controls .btn,
+.right-controls .hint-action-btn,
+.left-controls .hint-action-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 0%;
+    min-width: 0;
+    white-space: nowrap;
+    box-sizing: border-box;
+    height: clamp(1.8rem, 5vh, 2.25rem);         
+    padding: 0 0.25rem; 
+    border-radius: 1rem !important; 
+    font-size: clamp(0.75rem, 2vh, 1rem); 
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    text-decoration: none;
+    
+    background-color: #008000 !important;     
+    color: #ffd700 !important;                
+    border: 0.18rem solid #801380 !important; 
+}
+
+/* Uniform hover transformation */
+.left-controls .btn:hover:not(:disabled),
+.right-controls .btn:hover:not(:disabled),
+.left-controls .hint-action-btn:hover:not(:disabled),
+.right-controls .hint-action-btn:hover:not(:disabled) {
+    background-color: #ffd700 !important; 
+    color: #008000 !important;            
+    border-color: #801380 !important;     
+}
+
+/* UNCHANGED CLOCK: Kept at your preferred readable 1.6rem size */
+#game-timer {
+    font-size: clamp(1.2rem, 4.5vh, 2.16rem);        
+    font-weight: 900;
+    color: #ffd700;
+    font-family: monospace; 
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #008000;
+    border-radius: 1rem;
+    width: 90%;
+    border: 0.18rem solid #801380;
+    height: clamp(1.8rem, 5vh, 2.25rem);
+}
+
+
+/* Toolbar Bottom Row Strip */
+.bottom-bar {
+    display: flex;
+    flex-flow: row nowrap; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.35rem; 
+    padding: 0.25rem;
+    border-top: 0.25rem solid #ffd700;
+    position: relative; 
+    width: 100%;
+}
+
+/* Unified Circle Button Base Strategy (12 Grammar Buttons + 4 Nav Arrows) */
+.grammar-btn,
+.nav-arrow-btn {
+    /* Exact sizing geometry to lock down a perfect circular shape */
+    width: 2.15rem;
+    height: 2.15rem;
+    padding: 0;
+    
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 50% !important;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.15s ease-in-out;
+    
+    /* Your Theme Style Archetype */
+    background-color: #008000 !important;
+    color: #ffd700 !important;
+    border: 0.25rem solid #801380 !important;
+}
+
+/* Uniform Interaction Hover State */
+.grammar-btn:hover,
+.nav-arrow-btn:hover {
+    background-color: #ffd700 !important;
+    color: #008000 !important;
+    border-color: #801380 !important;
+}
+
+/* Minor click feedback scaling */
+.grammar-btn:active,
+.nav-arrow-btn:active {
+    transform: scale(0.92);
+}
+
+/* Flattening the old D-Pad wrapper into a simple inline flex layout */
+.arrow-pad {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.35rem; /* Matches the global tool row gap */
+    margin: 0;
+}
+
+/* Inline Congratulations Banner Layout Over Bottom Bar */
+.congrats-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffd700;
+    color: #008000;
+    border: 0.18rem solid #801380;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    text-align: center;
+    padding: 0 1rem;
+    font-size: 1.65rem; 
+    text-transform: uppercase;
+    letter-spacing: 0.02em; 
+}
+
+/* ==========================================================================
+   3. MODAL ALERTS OVERLAY STYLING
+   ========================================================================== */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 1rem;
+}
+
+.modal-box {
+    background: #cbd5e0;
+    padding: clamp(1rem, 3vh, 1.5rem);
+    border-radius: 0.375rem;
+    box-shadow: 0 0.625rem 1.5rem rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 28rem;
+    max-height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 0.5rem solid #ffd700;
+    overflow-y: auto;
+}
+
+#modal-text {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    color: #801380;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+/* Help Button Styling */
+.help-action-btn {
+    padding: 0.625rem 1.15rem;
+    font-size: 1rem;
+    font-weight: 700;
+    background: #e2e8f0;
+    color: #4a5568;
+    border: 0.125rem solid #cbd5e0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-left: auto; /* Pushes Help and Hint to the far right side */
+    transition: all 0.1s ease;
+}
+
+.help-action-btn:hover {
+    background: #cbd5e0;
+}
+
+/* ==========================================================================
+   4. DIRECTIONS SPLASH SCREEN MODAL (COMPACT NON-SCROLLING LAYOUT)
+   ========================================================================= */
+.instructions-box {
+    max-width: 54rem; 
+    text-align: left;
+    padding: clamp(1rem, 3vh, 1.25rem) clamp(1rem, 3vw, 1.75rem); 
+    box-sizing: border-box;
+    color: #801380;
+    background-color: #cbd5e0;
+}
+
+.instructions-box h2 {
+    text-align: center;
+    color: #801380;
+    margin-bottom: 0.5rem; 
+    font-size: clamp(1.5rem, 5vh, 2.7rem);
+}
+
+.instructions-content p {
+    font-size: clamp(0.8rem, 2vh, 0.9rem);
+    line-height: 1.4; 
+    margin-bottom: 0.5rem;
+    color: #801380;
+}
+
+/* Centering the first ("Your mission is...") and second ("The timer will stop...") paragraphs */
+.instructions-content p:nth-of-type(1),
+.instructions-content p:nth-of-type(2) {
+    text-align: center;
+    font-weight: 700;
+    color: #008000;
+}
+
+.instructions-content ul {
+    margin-left: 1.25rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+    color: #801380;
+}
+
+.instructions-content ul li {
+    margin-bottom: 0.25rem; 
+    font-size: clamp(0.75rem, 1.8vh, 0.88rem);
+    color: #801380;
+}
+
+.instructions-content ul ul {
+    margin-top: 0.15rem;
+    margin-bottom: 0rem;
+    list-style-type: circle;
+    margin-left: 1.15rem;
+}
+
+.instructions-content .good-luck {
+    font-weight: 900;
+    text-align: center;
+    font-size: clamp(1.2rem, 3vh, 1.8rem);
+    margin-top: 0.5rem;
+    color: #801380;
+    margin-bottom: 0;
+}
+
+.instructions-box .modal-buttons {
+    margin-top: 0.75rem;
+}
+
+#instructions-begin-btn {
+    font-weight: 900;
+    font-size: 1.35rem;
+    letter-spacing: 0.18rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #008000;
+    color: #ffd700;
+    border: 0.18rem solid #801380;
+}
+
+#instructions-begin-btn:hover {
+    background: #ffd700;
+    color: #008000;
+    border: 0.18rem solid #801380;
+}
+
+/* ==========================================================================
+   Text Field (Dual-Layer Overlay Layout)
+   ========================================================================= */
+
+/* 1. The Container Box: Acts as the anchor frame for our two stacked layers */
+#game-arena {
+    position: relative;   
+    flex: 1;   
+    min-height: 0;       
+    background-color: #fcfdfd;
+    border: 0.125rem solid #fcfdfd;
+    border-radius: 0.375rem;
+    padding: 0;              
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}
+
+/* Style to align and text-center the status bar perfectly inside the bottom-bar */
+.word-type-status-bar {
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #801380;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 2.15rem; /* Coordinates height perfectly with the circular button profiles */
+}
+
+/* 2. Shared Styles: Force absolute typography metrics symmetry */
+.puzzle-textarea,
+.puzzle-backdrop {
+    position: absolute;      
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 0.5rem;       
+    margin: 0;
+    border: none;    
+    font-size: 1.5rem;       
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-weight: 600;
+    /* CRITICAL FIXES FOR VISUAL PERFECT SYMMETRY */
+    font-variant-ligatures: none;        /* Disables glyph combinations across span borders */
+    font-feature-settings: "liga" 0;      /* Secondary cross-browser insurance for ligatures */
+    text-rendering: optimizeSpeed;        /* Normalizes character tracking baselines */
+    font-kerning: none;                  /* FIX: Stops textarea from squeezing serif letters tighter than spans */
+    text-indent: 0;
+}
+
+/* 3. The Bottom Layer */
+.puzzle-backdrop {
+    color: #000000;          
+    background-color: #fcfdfd;
+    pointer-events: none;    
+    z-index: 1;              
+}
+
+/* 4. The Top Layer */
+.puzzle-textarea {
+    background: transparent !important;
+    color: transparent !important;        /* Hides typed letters completely */
+    -webkit-text-fill-color: transparent; /* Extra layer for iOS webkit engines */
+    caret-color: #2d3748;                 /* Keeps your editing caret sharp and visible */
+    resize: none;
+    outline: none;
+    z-index: 2;              
+}
+
+/* 5. The Highlight Rule: This turns corrected capital letters and punctuation red */
+.corrected-marker {
+    color: #801380;          /* Clean, highly legible crimson red */
+    font-weight: 600;        /* Gives it a slightly bolder look so it pops */
+}
+
+/* ==========================================================================
+   5. REFACTOR MODIFICATIONS (UI CONTROLLER STYLES)
+   ========================================================================= */
+/* Confirmation Danger Callouts */
+.btn-confirm-danger {
+    background-color: #008000 !important;
+    color: #ffd700 !important;
+    border: 0.18rem solid #801380 !important;
+}
+.btn-confirm-danger:hover {
+    background-color: #ffd700 !important;
+    color: #008000 !important;
+    border: 0.18rem solid #801380 !important;
+}
+
+/* Confirmation Cancellation Callouts */
+.btn-confirm-cancel {
+    background-color: #008000 !important;
+    color: #ffd700 !important;
+    border: 0.18rem solid #801380 !important;
+}
+.btn-confirm-cancel:hover {
+    background-color: #ffd700 !important;
+    color: #008000 !important;
+    border: 0.18rem solid #801380 !important;
+}
+
+/* ==========================================================================
+   6. MODAL CONFIRMATION & DIALOG BUTTONS
+   ========================================================================== */
+.modal-confirm-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* Font size and styling matching interactive buttons */
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.625rem 1.5rem;
+    border-radius: 1rem !important;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.15s ease-in-out;
+    
+    /* Requested Style Rules: Green BG, Gold Text, Purple Border */
+    background-color: #008000 !important;
+    color: #ffd700 !important;
+    border: 0.18rem solid #801380 !important;
+}
+
+/* Hover Transformation: Background and Font Swap, Border remains unchanged */
+.modal-confirm-btn:hover {
+    background-color: #ffd700 !important;
+    color: #008000 !important;
+    border-color: #801380 !important;
+}
+
+/* Tactile action click state */
+.modal-confirm-btn:active {
+    transform: scale(0.95);
+}
+
+/* ==========================================================================
+   AUXILIARY WELCOME SCREEN BUTTONS (Answer Key & Book Store)
+   ========================================================================== */
+.btn.aux-btn {
+    font-size: 0.65rem; /* Less than half of the start button's 1.35rem */
+    padding: 0.4rem 0.6rem;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    max-width: 100%;
+}
