@@ -25,12 +25,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
+    height: 100dvh; /* Adapts dynamically to ViewSonic system bars */
+    width: 100vw;
     overflow: hidden;
     padding: 0;
 }
 
-/* Screen Wrapper Management */
 .screen {
     box-sizing: border-box;
     background: #cbd5e0;
@@ -41,8 +42,9 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+    height: 100dvh;
 }
 
 .hidden {
@@ -258,8 +260,9 @@ body {
 
 /* 1. SHRINK SIDE & TOP PADDING FOR ALL 3 ROWS AT ONCE */
 #play-screen {
-    width: 100vw;      
-    height: 100vh;    
+    width: 100%;      
+    height: 100%;    
+    height: 100dvh;
     border-radius: 0;   
     box-shadow: none;
     padding: clamp(0.25rem, 1.5vh, 0.5rem) clamp(0.5rem, 1.5vw, 0.75rem);
@@ -276,6 +279,7 @@ body {
     padding-bottom: 0.35rem;   
     border-bottom: 0.25rem solid #ffd700;
     margin-bottom: clamp(0.3rem, 1.5vh, 0.6rem);
+    flex-shrink: 0; /* Prevents top header from squashing */
 }
 
 /* Forces left and right blocks to scale identically, keeping the clock dead-center */
@@ -370,17 +374,17 @@ body {
     border-top: 0.25rem solid #ffd700;
     position: relative; 
     width: 100%;
+    flex-shrink: 0; /* CRITICAL: Stops the bottom bar from being pushed off screen */
 }
 
 /* Unified Circle Button Base Strategy (12 Grammar Buttons + 4 Nav Arrows) */
 .grammar-btn,
 .nav-arrow-btn {
-    /* Exact sizing geometry to lock down a perfect circular shape */
-    width: 2.15rem;
-    height: 2.15rem;
+    width: clamp(1.4rem, 3.2vw, 2.15rem);  /* Fluid scaling to fit board resolution */
+    height: clamp(1.4rem, 3.2vw, 2.15rem);
     padding: 0;
     
-    font-size: 1rem;
+    font-size: clamp(0.7rem, 1.6vw, 1rem);
     font-weight: 900;
     text-align: center;
     display: inline-flex;
@@ -392,7 +396,6 @@ body {
     user-select: none;
     transition: all 0.15s ease-in-out;
     
-    /* Your Theme Style Archetype */
     background-color: #008000 !important;
     color: #ffd700 !important;
     border: 0.25rem solid #801380 !important;
