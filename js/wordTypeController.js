@@ -488,8 +488,9 @@ class WordTypeController {
                SCREEN WRAPPER ISOLATION
                ========================================================================== */
             #word-type-screen {
-                width: 100vw;      
-                height: 100vh;    
+                width: 100%;      
+                height: 100%;    
+                height: 100dvh;
                 border-radius: 0;   
                 box-shadow: none;
                 padding: clamp(0.25rem, 1.5vh, 0.5rem) clamp(0.5rem, 1.5vw, 0.75rem);
@@ -498,6 +499,7 @@ class WordTypeController {
                 overflow: hidden;
                 background: #cbd5e0;
                 border: 0.5rem solid #ffd700;
+                box-sizing: border-box;
             }
 
             /* ==========================================================================
@@ -564,6 +566,7 @@ class WordTypeController {
                 position: relative;
                 width: 100%;
                 box-sizing: border-box;
+                flex-shrink: 0; /* Locks bottom status bar in visible area */
             }
             .word-type-status-bar {
                 width: 100%;
