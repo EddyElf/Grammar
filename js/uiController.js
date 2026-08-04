@@ -290,7 +290,7 @@ export const ui = {
         
         this.elements.gameArena.innerHTML = `
             <div id="puzzle-text-backdrop" class="puzzle-backdrop"></div>
-            <textarea id="puzzle-text-input" class="puzzle-textarea" spellcheck="false">${text}</textarea>
+            <textarea id="puzzle-text-input" class="puzzle-textarea" spellcheck="false" inputmode="none" autocomplete="off" autocorrect="off" autocapitalize="off">${text}</textarea>
         `;
         
         const textarea = document.getElementById('puzzle-text-input');
