@@ -186,7 +186,17 @@ export class GameManager {
             const rawLetters = rawToken.replace(/[^a-zA-Z0-9]/g, "");
             const solLetters = solToken.replace(/[^a-zA-Z0-9]/g, "");
 
-            if (curLetters !== rawLetters && curLetters !== solLetters) return false;
+            // Ensure base letter sequence matches
+            if (curLetters.toLowerCase() !== rawLetters.toLowerCase()) return false;
+
+            // Allow partial capitalization by verifying each character matches raw or solution case
+            for (let j = 0; j < curLetters.length; j++) {
+                const char = curLetters[j];
+                if (char !== rawLetters[j] && char !== solLetters[j]) {
+                    return false;
+                }
+            }
+
             if (!this.isSubsequence(curToken, solToken)) return false;
         }
         return true;
