@@ -3,9 +3,9 @@
     "id": 1,
     "grade": 3,
     "subject": "math",
-    "rawText": "if you see three colorful baskets and each basket holds five juicy red apples you can easily think about multiplication this exciting math idea lets you write a special short expression 3 times 5 this quick expression perfectly tells us there are three equal groups of shiny fruit",
-    "solutionText": "If you see three colorful baskets and each basket holds five juicy, red apples, you can easily think about multiplication. This exciting math idea lets you write a special, short expression: \"3 times 5\". This quick expression perfectly tells us there are three equal groups of shiny fruit!",
-    "extendedText": "If you see three colorful baskets and each basket holds five juicy, red apples, you can easily think about multiplication. This exciting math idea lets you write a special, short expression: \"3 times 5\". This quick expression perfectly tells us there are three equal groups of shiny fruit!",
+    "rawText": "if you see three colorful baskets and each basket holds five juicy red apples you can easily think about multiplication this exciting math idea lets you write a special short expression like 3 times 5 this quick expression perfectly tells us there are three equal groups of shiny fruit",
+    "solutionText": "If you see three colorful baskets and each basket holds five juicy, red apples, you can easily think about multiplication. This exciting math idea lets you write a special, short expression like \"3 times 5\". This quick expression perfectly tells us there are three equal groups of shiny fruit!",
+    "extendedText": "If you see three colorful baskets and each basket holds five juicy, red apples, you can easily think about multiplication. This exciting math idea lets you write a special, short expression like \"3 times 5\". This quick expression perfectly tells us there are three equal groups of shiny fruit!",
     "totalChangesRequired": 12,
     "grammarRules": [
       {
@@ -39,11 +39,6 @@
         "add": ","
       },
       {
-        "wordIndex": 30,
-        "type": "punctuation",
-        "add": ":"
-      },
-      {
         "wordIndex": 31,
         "type": "punctuation",
         "add": "\""
@@ -54,17 +49,17 @@
         "add": "\""
       },
       {
-        "wordIndex": 33,
+        "wordIndex": 34,
         "type": "punctuation",
         "add": "."
       },
       {
-        "wordIndex": 34,
+        "wordIndex": 35,
         "type": "capitalize",
         "correct": "This"
       },
       {
-        "wordIndex": 47,
+        "wordIndex": 48,
         "type": "punctuation",
         "add": "!"
       }
@@ -128,7 +123,7 @@
       },
       {
         "wordIndex": 22,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 23,
@@ -139,12 +134,8 @@
         "type": "Verb"
       },
       {
-        "wordIndex": 26,
+        "wordIndex": 27,
         "type": "Verb"
-      },
-      {
-        "wordIndex": 28,
-        "type": "Adjective"
       },
       {
         "wordIndex": 29,
@@ -152,22 +143,30 @@
       },
       {
         "wordIndex": 30,
-        "type": "Noun"
-      },
-      {
-        "wordIndex": 35,
         "type": "Adjective"
       },
       {
-        "wordIndex": 36,
+        "wordIndex": 32,
         "type": "Noun"
       },
       {
+        "wordIndex": 34,
+        "type": "Verb"
+      },
+      {
         "wordIndex": 37,
-        "type": "Adverb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 38,
+        "type": "Noun"
+      },
+      {
+        "wordIndex": 39,
+        "type": "Adverb"
+      },
+      {
+        "wordIndex": 40,
         "type": "Verb"
       },
       {
@@ -175,23 +174,23 @@
         "type": "Verb"
       },
       {
-        "wordIndex": 43,
-        "type": "Adjective"
-      },
-      {
-        "wordIndex": 44,
-        "type": "Noun"
-      },
-      {
         "wordIndex": 45,
-        "type": "Preposition"
+        "type": "Adjective"
       },
       {
         "wordIndex": 46,
-        "type": "Adjective"
+        "type": "Noun"
       },
       {
         "wordIndex": 47,
+        "type": "Preposition"
+      },
+      {
+        "wordIndex": 48,
+        "type": "Adjective"
+      },
+      {
+        "wordIndex": 49,
         "type": "Noun"
       }
     ],
@@ -199,14 +198,13 @@
       "3 capital letters",
       "3 commas",
       "2 periods",
-      "1 colon",
       "1 exclamation mark",
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 10",
-      "Verbs: 8",
-      "Adjectives: 9",
+      "Word Types: Nouns: 9",
+      "Verbs: 9",
+      "Adjectives: 10",
       "Adverbs: 2",
       "Prepositions: 2"
     ]
@@ -341,7 +339,7 @@
       },
       {
         "wordIndex": 16,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 17,
@@ -436,9 +434,9 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
+      "Word Types: Nouns: 8",
       "Verbs: 8",
-      "Adjectives: 12",
+      "Adjectives: 13",
       "Adverbs: 3",
       "Prepositions: 3"
     ]
@@ -534,7 +532,7 @@
       },
       {
         "wordIndex": 11,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 12,
@@ -570,7 +568,7 @@
       },
       {
         "wordIndex": 24,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 25,
@@ -578,7 +576,7 @@
       },
       {
         "wordIndex": 26,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 27,
@@ -602,7 +600,7 @@
       },
       {
         "wordIndex": 34,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 35,
@@ -645,9 +643,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
-      "Verbs: 7",
-      "Adjectives: 7",
+      "Word Types: Nouns: 8",
+      "Verbs: 6",
+      "Adjectives: 11",
       "Adverbs: 4",
       "Prepositions: 4"
     ]
@@ -992,7 +990,7 @@
       },
       {
         "wordIndex": 20,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 21,
@@ -1047,9 +1045,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 7",
+      "Word Types: Nouns: 6",
       "Verbs: 6",
-      "Adjectives: 8",
+      "Adjectives: 9",
       "Adverbs: 2",
       "Prepositions: 2"
     ]
@@ -1725,7 +1723,7 @@
       },
       {
         "wordIndex": 11,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 12,
@@ -1761,7 +1759,7 @@
       },
       {
         "wordIndex": 26,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 27,
@@ -1807,9 +1805,9 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 9",
       "Verbs: 6",
-      "Adjectives: 6",
+      "Adjectives: 8",
       "Adverbs: 0",
       "Prepositions: 4"
     ]
@@ -1894,7 +1892,7 @@
       },
       {
         "wordIndex": 11,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 12,
@@ -1930,7 +1928,7 @@
       },
       {
         "wordIndex": 24,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 25,
@@ -1963,9 +1961,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 10",
+      "Word Types: Nouns: 8",
       "Verbs: 3",
-      "Adjectives: 6",
+      "Adjectives: 8",
       "Adverbs: 2",
       "Prepositions: 3"
     ]
@@ -2051,11 +2049,11 @@
       },
       {
         "wordIndex": 6,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 7,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 8,
@@ -2139,7 +2137,7 @@
       },
       {
         "wordIndex": 35,
-        "type": "Adverb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 37,
@@ -2163,10 +2161,10 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 8",
-      "Verbs: 8",
-      "Adjectives: 4",
-      "Adverbs: 4",
+      "Word Types: Nouns: 7",
+      "Verbs: 7",
+      "Adjectives: 7",
+      "Adverbs: 3",
       "Prepositions: 4"
     ]
   },
@@ -2218,7 +2216,7 @@
     "wordTypes": [
       {
         "wordIndex": 1,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 2,
@@ -2282,7 +2280,7 @@
       },
       {
         "wordIndex": 23,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 24,
@@ -2319,9 +2317,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
-      "Verbs: 5",
-      "Adjectives: 4",
+      "Word Types: Nouns: 8",
+      "Verbs: 4",
+      "Adjectives: 6",
       "Adverbs: 4",
       "Prepositions: 2"
     ]
@@ -2465,7 +2463,7 @@
       },
       {
         "wordIndex": 36,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 37,
@@ -2505,9 +2503,9 @@
       "3 periods"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 10",
       "Verbs: 9",
-      "Adjectives: 6",
+      "Adjectives: 7",
       "Adverbs: 4",
       "Prepositions: 3"
     ]
@@ -2583,7 +2581,7 @@
       },
       {
         "wordIndex": 11,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 12,
@@ -2703,7 +2701,7 @@
       },
       {
         "wordIndex": 50,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 51,
@@ -2716,9 +2714,9 @@
       "2 periods"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 14",
-      "Verbs: 9",
-      "Adjectives: 8",
+      "Word Types: Nouns: 13",
+      "Verbs: 8",
+      "Adjectives: 10",
       "Adverbs: 2",
       "Prepositions: 6"
     ]
@@ -2837,7 +2835,7 @@
       },
       {
         "wordIndex": 19,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 20,
@@ -2865,7 +2863,7 @@
       },
       {
         "wordIndex": 28,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 29,
@@ -2897,7 +2895,7 @@
       },
       {
         "wordIndex": 40,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 41,
@@ -2905,7 +2903,7 @@
       },
       {
         "wordIndex": 44,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 45,
@@ -2923,9 +2921,9 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 14",
+      "Word Types: Nouns: 10",
       "Verbs: 7",
-      "Adjectives: 8",
+      "Adjectives: 12",
       "Adverbs: 1",
       "Prepositions: 4"
     ]
@@ -3015,7 +3013,7 @@
       },
       {
         "wordIndex": 11,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 12,
@@ -3059,50 +3057,54 @@
       },
       {
         "wordIndex": 27,
-        "type": "Noun"
-      },
-      {
-        "wordIndex": 28,
         "type": "Verb"
       },
       {
-        "wordIndex": 29,
-        "type": "Adjective"
+        "wordIndex": 28,
+        "type": "Noun"
       },
       {
-        "wordIndex": 31,
+        "wordIndex": 29,
+        "type": "Verb"
+      },
+      {
+        "wordIndex": 30,
         "type": "Adjective"
       },
       {
         "wordIndex": 32,
-        "type": "Noun"
-      },
-      {
-        "wordIndex": 33,
-        "type": "Adverb"
-      },
-      {
-        "wordIndex": 34,
-        "type": "Verb"
-      },
-      {
-        "wordIndex": 35,
-        "type": "Adverb"
-      },
-      {
-        "wordIndex": 37,
-        "type": "Noun"
-      },
-      {
-        "wordIndex": 38,
-        "type": "Preposition"
-      },
-      {
-        "wordIndex": 39,
         "type": "Adjective"
       },
       {
+        "wordIndex": 33,
+        "type": "Noun"
+      },
+      {
+        "wordIndex": 34,
+        "type": "Adverb"
+      },
+      {
+        "wordIndex": 35,
+        "type": "Verb"
+      },
+      {
+        "wordIndex": 36,
+        "type": "Adverb"
+      },
+      {
+        "wordIndex": 38,
+        "type": "Noun"
+      },
+      {
+        "wordIndex": 39,
+        "type": "Preposition"
+      },
+      {
         "wordIndex": 40,
+        "type": "Adjective"
+      },
+      {
+        "wordIndex": 41,
         "type": "Noun"
       }
     ],
@@ -3112,9 +3114,9 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
-      "Verbs: 5",
-      "Adjectives: 8",
+      "Word Types: Nouns: 10",
+      "Verbs: 6",
+      "Adjectives: 9",
       "Adverbs: 3",
       "Prepositions: 4"
     ]
@@ -3377,7 +3379,7 @@
       },
       {
         "wordIndex": 10,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 11,
@@ -3453,7 +3455,7 @@
       },
       {
         "wordIndex": 35,
-        "type": "Verb"
+        "type": "Noun"
       },
       {
         "wordIndex": 38,
@@ -3481,8 +3483,8 @@
     ],
     "wordTypeHintLines": [
       "Word Types: Nouns: 9",
-      "Verbs: 9",
-      "Adjectives: 8",
+      "Verbs: 8",
+      "Adjectives: 9",
       "Adverbs: 2",
       "Prepositions: 2"
     ]
@@ -3543,7 +3545,7 @@
       },
       {
         "wordIndex": 4,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 5,
@@ -3559,7 +3561,7 @@
       },
       {
         "wordIndex": 9,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 10,
@@ -3599,7 +3601,7 @@
       },
       {
         "wordIndex": 22,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 23,
@@ -3619,7 +3621,7 @@
       },
       {
         "wordIndex": 29,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 30,
@@ -3669,9 +3671,9 @@
       "2 periods"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
-      "Verbs: 8",
-      "Adjectives: 4",
+      "Word Types: Nouns: 8",
+      "Verbs: 7",
+      "Adjectives: 8",
       "Adverbs: 3",
       "Prepositions: 6"
     ]
@@ -3745,7 +3747,7 @@
       },
       {
         "wordIndex": 8,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 9,
@@ -3777,7 +3779,7 @@
       },
       {
         "wordIndex": 19,
-        "type": "Preposition"
+        "type": "Adverb"
       },
       {
         "wordIndex": 20,
@@ -3789,7 +3791,7 @@
       },
       {
         "wordIndex": 23,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 24,
@@ -3836,11 +3838,11 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
+      "Word Types: Nouns: 7",
       "Verbs: 7",
-      "Adjectives: 4",
-      "Adverbs: 2",
-      "Prepositions: 3"
+      "Adjectives: 6",
+      "Adverbs: 3",
+      "Prepositions: 2"
     ]
   },
   {
@@ -3927,7 +3929,7 @@
       },
       {
         "wordIndex": 5,
-        "type": "Preposition"
+        "type": "Adverb"
       },
       {
         "wordIndex": 6,
@@ -3939,7 +3941,7 @@
       },
       {
         "wordIndex": 9,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 10,
@@ -3951,7 +3953,7 @@
       },
       {
         "wordIndex": 14,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 15,
@@ -3971,7 +3973,7 @@
       },
       {
         "wordIndex": 20,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 21,
@@ -3983,7 +3985,7 @@
       },
       {
         "wordIndex": 24,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 25,
@@ -3999,7 +4001,7 @@
       },
       {
         "wordIndex": 30,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 31,
@@ -4015,7 +4017,7 @@
       },
       {
         "wordIndex": 36,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 37,
@@ -4038,11 +4040,11 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 14",
-      "Verbs: 7",
-      "Adjectives: 4",
-      "Adverbs: 1",
-      "Prepositions: 4"
+      "Word Types: Nouns: 10",
+      "Verbs: 5",
+      "Adjectives: 10",
+      "Adverbs: 2",
+      "Prepositions: 3"
     ]
   },
   {
@@ -4126,7 +4128,7 @@
       },
       {
         "wordIndex": 9,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 10,
@@ -4202,7 +4204,7 @@
       },
       {
         "wordIndex": 38,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 39,
@@ -4216,9 +4218,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 7",
-      "Verbs: 9",
-      "Adjectives: 4",
+      "Word Types: Nouns: 6",
+      "Verbs: 8",
+      "Adjectives: 6",
       "Adverbs: 4",
       "Prepositions: 4"
     ]
@@ -4303,7 +4305,7 @@
       },
       {
         "wordIndex": 4,
-        "type": "Preposition"
+        "type": "Adverb"
       },
       {
         "wordIndex": 5,
@@ -4394,8 +4396,8 @@
       "Word Types: Nouns: 8",
       "Verbs: 7",
       "Adjectives: 5",
-      "Adverbs: 1",
-      "Prepositions: 2"
+      "Adverbs: 2",
+      "Prepositions: 1"
     ]
   },
   {
@@ -4485,7 +4487,7 @@
       },
       {
         "wordIndex": 11,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 12,
@@ -4517,7 +4519,7 @@
       },
       {
         "wordIndex": 21,
-        "type": "Verb"
+        "type": "Noun"
       },
       {
         "wordIndex": 22,
@@ -4561,8 +4563,8 @@
     ],
     "wordTypeHintLines": [
       "Word Types: Nouns: 6",
-      "Verbs: 8",
-      "Adjectives: 3",
+      "Verbs: 7",
+      "Adjectives: 4",
       "Adverbs: 2",
       "Prepositions: 4"
     ]
@@ -4848,7 +4850,7 @@
       },
       {
         "wordIndex": 19,
-        "type": "Adverb"
+        "type": "Preposition"
       },
       {
         "wordIndex": 20,
@@ -4872,7 +4874,7 @@
       },
       {
         "wordIndex": 27,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 28,
@@ -4884,7 +4886,7 @@
       },
       {
         "wordIndex": 31,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 32,
@@ -4915,11 +4917,11 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
-      "Verbs: 7",
-      "Adjectives: 4",
-      "Adverbs: 3",
-      "Prepositions: 3"
+      "Word Types: Nouns: 8",
+      "Verbs: 6",
+      "Adjectives: 6",
+      "Adverbs: 2",
+      "Prepositions: 4"
     ]
   },
   {
@@ -5088,7 +5090,7 @@
       },
       {
         "wordIndex": 39,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 40,
@@ -5103,9 +5105,9 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 8",
+      "Word Types: Nouns: 7",
       "Verbs: 8",
-      "Adjectives: 7",
+      "Adjectives: 8",
       "Adverbs: 5",
       "Prepositions: 1"
     ]
@@ -5194,7 +5196,7 @@
       },
       {
         "wordIndex": 13,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 14,
@@ -5283,9 +5285,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 8",
+      "Word Types: Nouns: 7",
       "Verbs: 10",
-      "Adjectives: 5",
+      "Adjectives: 6",
       "Adverbs: 5",
       "Prepositions: 2"
     ]
@@ -5354,7 +5356,7 @@
       },
       {
         "wordIndex": 4,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 5,
@@ -5374,7 +5376,7 @@
       },
       {
         "wordIndex": 11,
-        "type": "Adjective"
+        "type": "Verb"
       },
       {
         "wordIndex": 12,
@@ -5386,7 +5388,7 @@
       },
       {
         "wordIndex": 15,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 16,
@@ -5410,7 +5412,7 @@
       },
       {
         "wordIndex": 24,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 25,
@@ -5438,7 +5440,7 @@
       },
       {
         "wordIndex": 32,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 33,
@@ -5464,9 +5466,9 @@
       "2 periods"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 10",
+      "Word Types: Nouns: 7",
       "Verbs: 7",
-      "Adjectives: 5",
+      "Adjectives: 8",
       "Adverbs: 5",
       "Prepositions: 3"
     ]
@@ -5539,7 +5541,7 @@
       },
       {
         "wordIndex": 12,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 13,
@@ -5617,9 +5619,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 6",
+      "Word Types: Nouns: 5",
       "Verbs: 6",
-      "Adjectives: 5",
+      "Adjectives: 6",
       "Adverbs: 3",
       "Prepositions: 3"
     ]
@@ -5696,7 +5698,7 @@
       },
       {
         "wordIndex": 8,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 9,
@@ -5744,7 +5746,7 @@
       },
       {
         "wordIndex": 28,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 29,
@@ -5785,9 +5787,9 @@
       "1 comma"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 8",
-      "Verbs: 10",
-      "Adjectives: 4",
+      "Word Types: Nouns: 7",
+      "Verbs: 9",
+      "Adjectives: 6",
       "Adverbs: 1",
       "Prepositions: 4"
     ]
@@ -5867,7 +5869,7 @@
       },
       {
         "wordIndex": 4,
-        "type": "Preposition"
+        "type": "Adverb"
       },
       {
         "wordIndex": 7,
@@ -5879,7 +5881,7 @@
       },
       {
         "wordIndex": 10,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 11,
@@ -5895,7 +5897,7 @@
       },
       {
         "wordIndex": 16,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 17,
@@ -5907,7 +5909,7 @@
       },
       {
         "wordIndex": 20,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 21,
@@ -5919,7 +5921,7 @@
       },
       {
         "wordIndex": 24,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 25,
@@ -5982,11 +5984,11 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 13",
-      "Verbs: 7",
-      "Adjectives: 4",
-      "Adverbs: 1",
-      "Prepositions: 5"
+      "Word Types: Nouns: 10",
+      "Verbs: 6",
+      "Adjectives: 8",
+      "Adverbs: 2",
+      "Prepositions: 4"
     ]
   },
   {
@@ -6049,7 +6051,7 @@
       },
       {
         "wordIndex": 6,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 7,
@@ -6065,7 +6067,7 @@
       },
       {
         "wordIndex": 10,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 12,
@@ -6089,7 +6091,7 @@
       },
       {
         "wordIndex": 19,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 20,
@@ -6121,7 +6123,7 @@
       },
       {
         "wordIndex": 30,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 31,
@@ -6141,7 +6143,7 @@
       },
       {
         "wordIndex": 36,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 37,
@@ -6155,9 +6157,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 8",
-      "Verbs: 10",
-      "Adjectives: 4",
+      "Word Types: Nouns: 5",
+      "Verbs: 8",
+      "Adjectives: 9",
       "Adverbs: 2",
       "Prepositions: 4"
     ]
@@ -6245,7 +6247,7 @@
       },
       {
         "wordIndex": 14,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 15,
@@ -6257,11 +6259,11 @@
       },
       {
         "wordIndex": 18,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 19,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 20,
@@ -6326,9 +6328,9 @@
       "2 periods"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 10",
-      "Verbs: 8",
-      "Adjectives: 8",
+      "Word Types: Nouns: 8",
+      "Verbs: 7",
+      "Adjectives: 11",
       "Adverbs: 2",
       "Prepositions: 1"
     ]
@@ -6425,7 +6427,7 @@
       },
       {
         "wordIndex": 7,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 8,
@@ -6437,7 +6439,7 @@
       },
       {
         "wordIndex": 13,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 14,
@@ -6457,7 +6459,7 @@
       },
       {
         "wordIndex": 21,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 22,
@@ -6509,9 +6511,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
-      "Verbs: 6",
-      "Adjectives: 3",
+      "Word Types: Nouns: 7",
+      "Verbs: 5",
+      "Adjectives: 6",
       "Adverbs: 4",
       "Prepositions: 3"
     ]
@@ -6590,7 +6592,7 @@
       },
       {
         "wordIndex": 8,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 9,
@@ -6630,7 +6632,7 @@
       },
       {
         "wordIndex": 22,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 23,
@@ -6638,7 +6640,7 @@
       },
       {
         "wordIndex": 24,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 25,
@@ -6646,7 +6648,7 @@
       },
       {
         "wordIndex": 27,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 28,
@@ -6654,7 +6656,7 @@
       },
       {
         "wordIndex": 30,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 31,
@@ -6678,7 +6680,7 @@
       },
       {
         "wordIndex": 37,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 38,
@@ -6699,9 +6701,9 @@
       "3 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 12",
-      "Verbs: 9",
-      "Adjectives: 4",
+      "Word Types: Nouns: 9",
+      "Verbs: 6",
+      "Adjectives: 10",
       "Adverbs: 2",
       "Prepositions: 3"
     ]
@@ -6778,7 +6780,7 @@
       },
       {
         "wordIndex": 9,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 10,
@@ -6842,7 +6844,7 @@
       },
       {
         "wordIndex": 37,
-        "type": "Adverb"
+        "type": "Verb"
       },
       {
         "wordIndex": 38,
@@ -6860,10 +6862,10 @@
       "2 periods"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 8",
-      "Verbs: 7",
-      "Adjectives: 4",
-      "Adverbs: 2",
+      "Word Types: Nouns: 7",
+      "Verbs: 8",
+      "Adjectives: 5",
+      "Adverbs: 1",
       "Prepositions: 4"
     ]
   },
@@ -6950,11 +6952,11 @@
       },
       {
         "wordIndex": 7,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 8,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 9,
@@ -7010,7 +7012,7 @@
       },
       {
         "wordIndex": 30,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 31,
@@ -7049,9 +7051,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 8",
       "Verbs: 6",
-      "Adjectives: 2",
+      "Adjectives: 5",
       "Adverbs: 3",
       "Prepositions: 6"
     ]
@@ -7134,7 +7136,7 @@
       },
       {
         "wordIndex": 10,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 11,
@@ -7202,7 +7204,7 @@
       },
       {
         "wordIndex": 38,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 40,
@@ -7214,7 +7216,7 @@
       },
       {
         "wordIndex": 43,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 44,
@@ -7229,9 +7231,9 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
+      "Word Types: Nouns: 6",
       "Verbs: 9",
-      "Adjectives: 6",
+      "Adjectives: 9",
       "Adverbs: 1",
       "Prepositions: 2"
     ]
@@ -7300,7 +7302,7 @@
       },
       {
         "wordIndex": 7,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 8,
@@ -7320,7 +7322,7 @@
       },
       {
         "wordIndex": 13,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 14,
@@ -7405,9 +7407,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 12",
+      "Word Types: Nouns: 10",
       "Verbs: 6",
-      "Adjectives: 4",
+      "Adjectives: 6",
       "Adverbs: 5",
       "Prepositions: 2"
     ]
@@ -7479,7 +7481,7 @@
       },
       {
         "wordIndex": 2,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 3,
@@ -7491,11 +7493,11 @@
       },
       {
         "wordIndex": 6,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 7,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 8,
@@ -7547,6 +7549,10 @@
       },
       {
         "wordIndex": 30,
+        "type": "Preposition"
+      },
+      {
+        "wordIndex": 31,
         "type": "Noun"
       },
       {
@@ -7594,11 +7600,11 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
-      "Verbs: 10",
-      "Adjectives: 3",
+      "Word Types: Nouns: 9",
+      "Verbs: 9",
+      "Adjectives: 6",
       "Adverbs: 1",
-      "Prepositions: 3"
+      "Prepositions: 4"
     ]
   },
   {
@@ -7856,7 +7862,7 @@
       },
       {
         "wordIndex": 5,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 6,
@@ -7872,7 +7878,7 @@
       },
       {
         "wordIndex": 9,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 10,
@@ -7901,10 +7907,6 @@
       {
         "wordIndex": 18,
         "type": "Adjective"
-      },
-      {
-        "wordIndex": 18,
-        "type": "Noun"
       },
       {
         "wordIndex": 19,
@@ -7968,7 +7970,7 @@
       },
       {
         "wordIndex": 40,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 41,
@@ -7988,9 +7990,9 @@
       "1 exclamation mark"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 12",
+      "Word Types: Nouns: 8",
       "Verbs: 7",
-      "Adjectives: 5",
+      "Adjectives: 8",
       "Adverbs: 6",
       "Prepositions: 4"
     ]
@@ -8084,7 +8086,7 @@
       },
       {
         "wordIndex": 5,
-        "type": "Preposition"
+        "type": "Adverb"
       },
       {
         "wordIndex": 6,
@@ -8096,7 +8098,7 @@
       },
       {
         "wordIndex": 9,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 10,
@@ -8108,7 +8110,7 @@
       },
       {
         "wordIndex": 15,
-        "type": "Noun"
+        "type": "Verb"
       },
       {
         "wordIndex": 17,
@@ -8132,7 +8134,7 @@
       },
       {
         "wordIndex": 24,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 25,
@@ -8176,11 +8178,11 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 10",
-      "Verbs: 5",
-      "Adjectives: 4",
-      "Adverbs: 2",
-      "Prepositions: 4"
+      "Word Types: Nouns: 7",
+      "Verbs: 6",
+      "Adjectives: 6",
+      "Adverbs: 3",
+      "Prepositions: 3"
     ]
   },
   {
@@ -8445,11 +8447,15 @@
       },
       {
         "wordIndex": 8,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 9,
         "type": "Noun"
+      },
+      {
+        "wordIndex": 10,
+        "type": "Preposition"
       },
       {
         "wordIndex": 12,
@@ -8457,7 +8463,7 @@
       },
       {
         "wordIndex": 13,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 14,
@@ -8485,7 +8491,7 @@
       },
       {
         "wordIndex": 24,
-        "type": "Preposition"
+        "type": "Adverb"
       },
       {
         "wordIndex": 26,
@@ -8528,10 +8534,6 @@
         "type": "Adjective"
       },
       {
-        "wordIndex": 38,
-        "type": "Noun"
-      },
-      {
         "wordIndex": 39,
         "type": "Noun"
       },
@@ -8557,10 +8559,10 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
+      "Word Types: Nouns: 6",
       "Verbs: 9",
-      "Adjectives: 7",
-      "Adverbs: 3",
+      "Adjectives: 9",
+      "Adverbs: 4",
       "Prepositions: 3"
     ]
   },
@@ -8659,7 +8661,7 @@
       },
       {
         "wordIndex": 13,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 14,
@@ -8745,9 +8747,9 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 10",
       "Verbs: 6",
-      "Adjectives: 5",
+      "Adjectives: 6",
       "Adverbs: 2",
       "Prepositions: 4"
     ]
@@ -8829,10 +8831,6 @@
         "type": "Adjective"
       },
       {
-        "wordIndex": 9,
-        "type": "Noun"
-      },
-      {
         "wordIndex": 10,
         "type": "Noun"
       },
@@ -8890,7 +8888,7 @@
       },
       {
         "wordIndex": 29,
-        "type": "Preposition"
+        "type": "Adverb"
       },
       {
         "wordIndex": 31,
@@ -8898,7 +8896,7 @@
       },
       {
         "wordIndex": 32,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 33,
@@ -8922,7 +8920,7 @@
       },
       {
         "wordIndex": 41,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 42,
@@ -8938,11 +8936,11 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 8",
       "Verbs: 10",
-      "Adjectives: 3",
-      "Adverbs: 2",
-      "Prepositions: 4"
+      "Adjectives: 5",
+      "Adverbs: 3",
+      "Prepositions: 3"
     ]
   },
   {
@@ -9012,7 +9010,7 @@
       },
       {
         "wordIndex": 1,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 2,
@@ -9064,7 +9062,7 @@
       },
       {
         "wordIndex": 22,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 23,
@@ -9127,10 +9125,6 @@
         "type": "Adjective"
       },
       {
-        "wordIndex": 40,
-        "type": "Noun"
-      },
-      {
         "wordIndex": 41,
         "type": "Noun"
       },
@@ -9140,7 +9134,7 @@
       },
       {
         "wordIndex": 43,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 44,
@@ -9155,9 +9149,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 14",
+      "Word Types: Nouns: 10",
       "Verbs: 8",
-      "Adjectives: 7",
+      "Adjectives: 10",
       "Adverbs: 2",
       "Prepositions: 4"
     ]
@@ -9246,7 +9240,7 @@
       },
       {
         "wordIndex": 8,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 9,
@@ -9350,7 +9344,7 @@
       },
       {
         "wordIndex": 44,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 45,
@@ -9365,9 +9359,9 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
-      "Verbs: 9",
-      "Adjectives: 5",
+      "Word Types: Nouns: 10",
+      "Verbs: 8",
+      "Adjectives: 7",
       "Adverbs: 2",
       "Prepositions: 5"
     ]
@@ -9547,7 +9541,7 @@
       },
       {
         "wordIndex": 40,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 41,
@@ -9561,9 +9555,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 12",
+      "Word Types: Nouns: 11",
       "Verbs: 7",
-      "Adjectives: 4",
+      "Adjectives: 5",
       "Adverbs: 4",
       "Prepositions: 3"
     ]
@@ -9698,7 +9692,7 @@
       },
       {
         "wordIndex": 29,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 30,
@@ -9730,7 +9724,7 @@
       },
       {
         "wordIndex": 39,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 40,
@@ -9761,9 +9755,9 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 12",
-      "Verbs: 10",
-      "Adjectives: 4",
+      "Word Types: Nouns: 11",
+      "Verbs: 9",
+      "Adjectives: 6",
       "Adverbs: 2",
       "Prepositions: 4"
     ]
@@ -9901,12 +9895,8 @@
         "type": "Verb"
       },
       {
-        "wordIndex": 20,
+        "wordIndex": 21,
         "type": "Verb"
-      },
-      {
-        "wordIndex": 22,
-        "type": "Adjective"
       },
       {
         "wordIndex": 23,
@@ -9914,35 +9904,35 @@
       },
       {
         "wordIndex": 24,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 25,
-        "type": "Preposition"
+        "type": "Noun"
       },
       {
         "wordIndex": 26,
-        "type": "Verb"
-      },
-      {
-        "wordIndex": 27,
-        "type": "Adjective"
-      },
-      {
-        "wordIndex": 28,
-        "type": "Noun"
-      },
-      {
-        "wordIndex": 29,
         "type": "Preposition"
       },
       {
-        "wordIndex": 30,
+        "wordIndex": 27,
+        "type": "Verb"
+      },
+      {
+        "wordIndex": 28,
+        "type": "Adjective"
+      },
+      {
+        "wordIndex": 29,
         "type": "Noun"
       },
       {
-        "wordIndex": 32,
-        "type": "Adjective"
+        "wordIndex": 30,
+        "type": "Preposition"
+      },
+      {
+        "wordIndex": 31,
+        "type": "Noun"
       },
       {
         "wordIndex": 33,
@@ -9950,38 +9940,42 @@
       },
       {
         "wordIndex": 34,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 35,
-        "type": "Verb"
+        "type": "Noun"
       },
       {
-        "wordIndex": 37,
-        "type": "Noun"
+        "wordIndex": 36,
+        "type": "Verb"
       },
       {
         "wordIndex": 38,
-        "type": "Adjective"
-      },
-      {
-        "wordIndex": 39,
         "type": "Noun"
       },
       {
-        "wordIndex": 40,
-        "type": "Preposition"
-      },
-      {
-        "wordIndex": 41,
-        "type": "Verb"
-      },
-      {
-        "wordIndex": 42,
+        "wordIndex": 39,
         "type": "Adjective"
       },
       {
+        "wordIndex": 40,
+        "type": "Noun"
+      },
+      {
+        "wordIndex": 41,
+        "type": "Preposition"
+      },
+      {
+        "wordIndex": 42,
+        "type": "Verb"
+      },
+      {
         "wordIndex": 43,
+        "type": "Adjective"
+      },
+      {
+        "wordIndex": 44,
         "type": "Noun"
       }
     ],
@@ -10084,7 +10078,7 @@
       },
       {
         "wordIndex": 14,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 15,
@@ -10180,7 +10174,7 @@
       },
       {
         "wordIndex": 42,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 43,
@@ -10193,9 +10187,9 @@
       "1 comma"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 12",
+      "Word Types: Nouns: 10",
       "Verbs: 5",
-      "Adjectives: 10",
+      "Adjectives: 12",
       "Adverbs: 2",
       "Prepositions: 6"
     ]
@@ -10248,7 +10242,7 @@
     "wordTypes": [
       {
         "wordIndex": 0,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 1,
@@ -10280,7 +10274,7 @@
       },
       {
         "wordIndex": 11,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 12,
@@ -10393,9 +10387,9 @@
       "1 comma"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 12",
+      "Word Types: Nouns: 10",
       "Verbs: 9",
-      "Adjectives: 6",
+      "Adjectives: 8",
       "Adverbs: 5",
       "Prepositions: 3"
     ]
@@ -10513,11 +10507,11 @@
       },
       {
         "wordIndex": 14,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 15,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 16,
@@ -10628,9 +10622,9 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 9",
       "Verbs: 9",
-      "Adjectives: 8",
+      "Adjectives: 10",
       "Adverbs: 7",
       "Prepositions: 2"
     ]
@@ -10711,123 +10705,123 @@
         "type": "Verb"
       },
       {
-        "wordIndex": 10,
+        "wordIndex": 11,
         "type": "Verb"
       },
       {
-        "wordIndex": 12,
-        "type": "Noun"
-      },
-      {
-        "wordIndex": 14,
+        "wordIndex": 13,
         "type": "Noun"
       },
       {
         "wordIndex": 15,
-        "type": "Preposition"
-      },
-      {
-        "wordIndex": 16,
-        "type": "Verb"
-      },
-      {
-        "wordIndex": 18,
         "type": "Noun"
       },
       {
-        "wordIndex": 20,
+        "wordIndex": 16,
+        "type": "Preposition"
+      },
+      {
+        "wordIndex": 17,
         "type": "Verb"
+      },
+      {
+        "wordIndex": 19,
+        "type": "Noun"
       },
       {
         "wordIndex": 21,
         "type": "Verb"
       },
       {
-        "wordIndex": 23,
-        "type": "Noun"
+        "wordIndex": 22,
+        "type": "Verb"
       },
       {
         "wordIndex": 24,
-        "type": "Preposition"
+        "type": "Noun"
       },
       {
         "wordIndex": 25,
-        "type": "Noun"
-      },
-      {
-        "wordIndex": 26,
         "type": "Preposition"
       },
       {
-        "wordIndex": 28,
+        "wordIndex": 26,
         "type": "Noun"
+      },
+      {
+        "wordIndex": 27,
+        "type": "Preposition"
       },
       {
         "wordIndex": 29,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
-        "wordIndex": 32,
+        "wordIndex": 30,
         "type": "Noun"
       },
       {
         "wordIndex": 33,
-        "type": "Verb"
+        "type": "Noun"
       },
       {
         "wordIndex": 34,
+        "type": "Verb"
+      },
+      {
+        "wordIndex": 35,
         "type": "Adverb"
       },
       {
-        "wordIndex": 36,
+        "wordIndex": 37,
         "type": "Adjective"
-      },
-      {
-        "wordIndex": 38,
-        "type": "Noun"
       },
       {
         "wordIndex": 39,
-        "type": "Adjective"
-      },
-      {
-        "wordIndex": 40,
         "type": "Noun"
       },
       {
+        "wordIndex": 40,
+        "type": "Adjective"
+      },
+      {
         "wordIndex": 41,
-        "type": "Verb"
+        "type": "Noun"
       },
       {
         "wordIndex": 42,
         "type": "Verb"
       },
       {
-        "wordIndex": 44,
-        "type": "Adjective"
-      },
-      {
-        "wordIndex": 45,
-        "type": "Noun"
-      },
-      {
-        "wordIndex": 47,
+        "wordIndex": 43,
         "type": "Verb"
       },
       {
-        "wordIndex": 48,
+        "wordIndex": 45,
         "type": "Adjective"
       },
       {
-        "wordIndex": 49,
+        "wordIndex": 46,
         "type": "Noun"
       },
       {
+        "wordIndex": 48,
+        "type": "Verb"
+      },
+      {
+        "wordIndex": 49,
+        "type": "Adjective"
+      },
+      {
         "wordIndex": 50,
-        "type": "Adverb"
+        "type": "Noun"
       },
       {
         "wordIndex": 51,
+        "type": "Adverb"
+      },
+      {
+        "wordIndex": 52,
         "type": "Adverb"
       }
     ],
@@ -10838,9 +10832,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 14",
+      "Word Types: Nouns: 13",
       "Verbs: 10",
-      "Adjectives: 6",
+      "Adjectives: 7",
       "Adverbs: 3",
       "Prepositions: 3"
     ]
@@ -10976,7 +10970,7 @@
       },
       {
         "wordIndex": 25,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 26,
@@ -10992,7 +10986,7 @@
       },
       {
         "wordIndex": 31,
-        "type": "Adverb"
+        "type": "Preposition"
       },
       {
         "wordIndex": 33,
@@ -11047,11 +11041,11 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
+      "Word Types: Nouns: 8",
       "Verbs: 9",
-      "Adjectives: 6",
-      "Adverbs: 5",
-      "Prepositions: 4"
+      "Adjectives: 7",
+      "Adverbs: 4",
+      "Prepositions: 5"
     ]
   },
   {
@@ -11152,7 +11146,7 @@
       },
       {
         "wordIndex": 9,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 10,
@@ -11208,7 +11202,7 @@
       },
       {
         "wordIndex": 27,
-        "type": "Preposition"
+        "type": "Adverb"
       },
       {
         "wordIndex": 28,
@@ -11240,15 +11234,11 @@
       },
       {
         "wordIndex": 39,
-        "type": "Adverb"
-      },
-      {
-        "wordIndex": 39,
         "type": "Verb"
       },
       {
         "wordIndex": 41,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 42,
@@ -11272,11 +11262,11 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 13",
+      "Word Types: Nouns: 11",
       "Verbs: 7",
-      "Adjectives: 4",
+      "Adjectives: 6",
       "Adverbs: 2",
-      "Prepositions: 7"
+      "Prepositions: 6"
     ]
   },
   {
@@ -11366,7 +11356,7 @@
       },
       {
         "wordIndex": 10,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 11,
@@ -11394,7 +11384,7 @@
       },
       {
         "wordIndex": 20,
-        "type": "Adjective"
+        "type": "Verb"
       },
       {
         "wordIndex": 21,
@@ -11466,7 +11456,7 @@
       },
       {
         "wordIndex": 47,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 48,
@@ -11488,9 +11478,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 13",
-      "Verbs: 8",
-      "Adjectives: 10",
+      "Word Types: Nouns: 11",
+      "Verbs: 9",
+      "Adjectives: 11",
       "Adverbs: 1",
       "Prepositions: 3"
     ]
@@ -11641,7 +11631,7 @@
       },
       {
         "wordIndex": 31,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 32,
@@ -11715,9 +11705,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 14",
+      "Word Types: Nouns: 13",
       "Verbs: 8",
-      "Adjectives: 7",
+      "Adjectives: 8",
       "Adverbs: 2",
       "Prepositions: 8"
     ]
@@ -11811,7 +11801,7 @@
       },
       {
         "wordIndex": 8,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 9,
@@ -11831,7 +11821,7 @@
       },
       {
         "wordIndex": 13,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 14,
@@ -11907,7 +11897,7 @@
       },
       {
         "wordIndex": 46,
-        "type": "Adverb"
+        "type": "Preposition"
       },
       {
         "wordIndex": 47,
@@ -11930,11 +11920,11 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 9",
       "Verbs: 11",
-      "Adjectives: 5",
-      "Adverbs: 1",
-      "Prepositions: 4"
+      "Adjectives: 7",
+      "Adverbs: 0",
+      "Prepositions: 5"
     ]
   },
   {
@@ -12026,6 +12016,10 @@
       {
         "wordIndex": 13,
         "type": "Preposition"
+      },
+      {
+        "wordIndex": 15,
+        "type": "Adjective"
       },
       {
         "wordIndex": 16,
@@ -12134,7 +12128,7 @@
     "wordTypeHintLines": [
       "Word Types: Nouns: 9",
       "Verbs: 7",
-      "Adjectives: 7",
+      "Adjectives: 8",
       "Adverbs: 2",
       "Prepositions: 5"
     ]
@@ -12187,7 +12181,7 @@
     "wordTypes": [
       {
         "wordIndex": 0,
-        "type": "Verb"
+        "type": "Noun"
       },
       {
         "wordIndex": 1,
@@ -12227,11 +12221,11 @@
       },
       {
         "wordIndex": 15,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 16,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 17,
@@ -12247,7 +12241,7 @@
       },
       {
         "wordIndex": 22,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 23,
@@ -12304,10 +12298,6 @@
       {
         "wordIndex": 44,
         "type": "Preposition"
-      },
-      {
-        "wordIndex": 45,
-        "type": "Preposition"
       }
     ],
     "hintLines": [
@@ -12316,11 +12306,11 @@
       "1 hyphen"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 7",
-      "Verbs: 9",
-      "Adjectives: 5",
+      "Word Types: Nouns: 5",
+      "Verbs: 8",
+      "Adjectives: 8",
       "Adverbs: 5",
-      "Prepositions: 5"
+      "Prepositions: 4"
     ]
   },
   {
@@ -12411,7 +12401,7 @@
       },
       {
         "wordIndex": 8,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 9,
@@ -12431,7 +12421,7 @@
       },
       {
         "wordIndex": 14,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 15,
@@ -12510,9 +12500,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 9",
       "Verbs: 6",
-      "Adjectives: 5",
+      "Adjectives: 7",
       "Adverbs: 3",
       "Prepositions: 3"
     ]
@@ -12565,7 +12555,7 @@
     "wordTypes": [
       {
         "wordIndex": 0,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 1,
@@ -12645,7 +12635,7 @@
       },
       {
         "wordIndex": 27,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 28,
@@ -12689,7 +12679,7 @@
       },
       {
         "wordIndex": 39,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 40,
@@ -12702,9 +12692,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 14",
-      "Verbs: 7",
-      "Adjectives: 8",
+      "Word Types: Nouns: 12",
+      "Verbs: 6",
+      "Adjectives: 11",
       "Adverbs: 0",
       "Prepositions: 4"
     ]
@@ -12819,11 +12809,7 @@
       },
       {
         "wordIndex": 20,
-        "type": "Verb"
-      },
-      {
-        "wordIndex": 20,
-        "type": "Adverb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 21,
@@ -12847,7 +12833,7 @@
       },
       {
         "wordIndex": 29,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 30,
@@ -12871,7 +12857,7 @@
       },
       {
         "wordIndex": 37,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 38,
@@ -12898,10 +12884,10 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 10",
-      "Verbs: 9",
-      "Adjectives: 5",
-      "Adverbs: 4",
+      "Word Types: Nouns: 8",
+      "Verbs: 8",
+      "Adjectives: 8",
+      "Adverbs: 3",
       "Prepositions: 3"
     ]
   },
@@ -12985,7 +12971,7 @@
       },
       {
         "wordIndex": 5,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 6,
@@ -13013,7 +12999,7 @@
       },
       {
         "wordIndex": 13,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 14,
@@ -13065,11 +13051,7 @@
       },
       {
         "wordIndex": 31,
-        "type": "Verb"
-      },
-      {
-        "wordIndex": 31,
-        "type": "Preposition"
+        "type": "Adjective"
       },
       {
         "wordIndex": 32,
@@ -13112,11 +13094,11 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
-      "Verbs: 10",
-      "Adjectives: 5",
+      "Word Types: Nouns: 9",
+      "Verbs: 9",
+      "Adjectives: 8",
       "Adverbs: 1",
-      "Prepositions: 6"
+      "Prepositions: 5"
     ]
   },
   {
@@ -13433,7 +13415,7 @@
       },
       {
         "wordIndex": 35,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 36,
@@ -13472,9 +13454,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
+      "Word Types: Nouns: 8",
       "Verbs: 10",
-      "Adjectives: 5",
+      "Adjectives: 6",
       "Adverbs: 1",
       "Prepositions: 2"
     ]
@@ -13577,11 +13559,11 @@
       },
       {
         "wordIndex": 7,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 8,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 9,
@@ -13665,7 +13647,7 @@
       },
       {
         "wordIndex": 36,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 37,
@@ -13689,9 +13671,9 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 12",
-      "Verbs: 7",
-      "Adjectives: 4",
+      "Word Types: Nouns: 10",
+      "Verbs: 6",
+      "Adjectives: 7",
       "Adverbs: 4",
       "Prepositions: 4"
     ]
@@ -13858,7 +13840,7 @@
       },
       {
         "wordIndex": 35,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 36,
@@ -13872,9 +13854,9 @@
       "3 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
+      "Word Types: Nouns: 8",
       "Verbs: 9",
-      "Adjectives: 5",
+      "Adjectives: 6",
       "Adverbs: 2",
       "Prepositions: 3"
     ]
@@ -13941,7 +13923,7 @@
       },
       {
         "wordIndex": 2,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 3,
@@ -13981,7 +13963,7 @@
       },
       {
         "wordIndex": 17,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 18,
@@ -13998,10 +13980,6 @@
       {
         "wordIndex": 23,
         "type": "Noun"
-      },
-      {
-        "wordIndex": 24,
-        "type": "Preposition"
       },
       {
         "wordIndex": 26,
@@ -14103,11 +14081,11 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 14",
+      "Word Types: Nouns: 12",
       "Verbs: 10",
-      "Adjectives: 8",
+      "Adjectives: 10",
       "Adverbs: 3",
-      "Prepositions: 5"
+      "Prepositions: 4"
     ]
   },
   {
@@ -14213,7 +14191,7 @@
       },
       {
         "wordIndex": 14,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 15,
@@ -14229,7 +14207,7 @@
       },
       {
         "wordIndex": 19,
-        "type": "Preposition"
+        "type": "Adverb"
       },
       {
         "wordIndex": 21,
@@ -14249,7 +14227,7 @@
       },
       {
         "wordIndex": 28,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 29,
@@ -14315,11 +14293,11 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 14",
+      "Word Types: Nouns: 12",
       "Verbs: 8",
-      "Adjectives: 4",
-      "Adverbs: 1",
-      "Prepositions: 7"
+      "Adjectives: 6",
+      "Adverbs: 2",
+      "Prepositions: 6"
     ]
   },
   {
@@ -14442,7 +14420,7 @@
       },
       {
         "wordIndex": 24,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 25,
@@ -14478,7 +14456,7 @@
       },
       {
         "wordIndex": 35,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 36,
@@ -14523,9 +14501,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 13",
+      "Word Types: Nouns: 11",
       "Verbs: 8",
-      "Adjectives: 9",
+      "Adjectives: 11",
       "Adverbs: 3",
       "Prepositions: 4"
     ]
@@ -14619,7 +14597,7 @@
       },
       {
         "wordIndex": 12,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 13,
@@ -14694,19 +14672,19 @@
         "type": "Verb"
       },
       {
-        "wordIndex": 43,
+        "wordIndex": 44,
         "type": "Verb"
       },
       {
-        "wordIndex": 45,
+        "wordIndex": 46,
         "type": "Adjective"
       },
       {
-        "wordIndex": 46,
+        "wordIndex": 47,
         "type": "Noun"
       },
       {
-        "wordIndex": 47,
+        "wordIndex": 48,
         "type": "Adverb"
       }
     ],
@@ -14718,9 +14696,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 10",
       "Verbs: 9",
-      "Adjectives: 5",
+      "Adjectives: 6",
       "Adverbs: 1",
       "Prepositions: 6"
     ]
@@ -14967,11 +14945,11 @@
     "wordTypes": [
       {
         "wordIndex": 0,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 1,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 2,
@@ -15035,7 +15013,7 @@
       },
       {
         "wordIndex": 22,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 23,
@@ -15099,7 +15077,7 @@
       },
       {
         "wordIndex": 43,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 44,
@@ -15113,9 +15091,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 15",
+      "Word Types: Nouns: 11",
       "Verbs: 7",
-      "Adjectives: 6",
+      "Adjectives: 10",
       "Adverbs: 2",
       "Prepositions: 5"
     ]
@@ -15429,7 +15407,7 @@
       },
       {
         "wordIndex": 25,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 26,
@@ -15441,7 +15419,7 @@
       },
       {
         "wordIndex": 29,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 30,
@@ -15461,7 +15439,7 @@
       },
       {
         "wordIndex": 35,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 36,
@@ -15499,9 +15477,9 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 12",
-      "Verbs: 9",
-      "Adjectives: 7",
+      "Word Types: Nouns: 10",
+      "Verbs: 8",
+      "Adjectives: 10",
       "Adverbs: 3",
       "Prepositions: 2"
     ]
@@ -15585,7 +15563,7 @@
       },
       {
         "wordIndex": 5,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 6,
@@ -15609,7 +15587,7 @@
       },
       {
         "wordIndex": 13,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 14,
@@ -15653,7 +15631,7 @@
       },
       {
         "wordIndex": 29,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 30,
@@ -15665,7 +15643,7 @@
       },
       {
         "wordIndex": 33,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 34,
@@ -15677,7 +15655,7 @@
       },
       {
         "wordIndex": 37,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 38,
@@ -15715,9 +15693,9 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 15",
-      "Verbs: 7",
-      "Adjectives: 8",
+      "Word Types: Nouns: 11",
+      "Verbs: 6",
+      "Adjectives: 13",
       "Adverbs: 1",
       "Prepositions: 4"
     ]
@@ -15911,7 +15889,7 @@
       },
       {
         "wordIndex": 43,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 44,
@@ -15930,9 +15908,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
+      "Word Types: Nouns: 8",
       "Verbs: 12",
-      "Adjectives: 6",
+      "Adjectives: 7",
       "Adverbs: 3",
       "Prepositions: 2"
     ]
@@ -16030,7 +16008,7 @@
       },
       {
         "wordIndex": 18,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 19,
@@ -16054,7 +16032,7 @@
       },
       {
         "wordIndex": 29,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 30,
@@ -16062,7 +16040,7 @@
       },
       {
         "wordIndex": 31,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 32,
@@ -16085,9 +16063,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 8",
-      "Verbs: 8",
-      "Adjectives: 2",
+      "Word Types: Nouns: 7",
+      "Verbs: 6",
+      "Adjectives: 5",
       "Adverbs: 1",
       "Prepositions: 3"
     ]
@@ -16173,7 +16151,7 @@
       },
       {
         "wordIndex": 13,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 14,
@@ -16217,7 +16195,7 @@
       },
       {
         "wordIndex": 27,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 28,
@@ -16258,9 +16236,9 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
-      "Verbs: 8",
-      "Adjectives: 4",
+      "Word Types: Nouns: 8",
+      "Verbs: 7",
+      "Adjectives: 6",
       "Adverbs: 3",
       "Prepositions: 3"
     ]
@@ -16339,7 +16317,7 @@
       },
       {
         "wordIndex": 5,
-        "type": "Preposition"
+        "type": "Adverb"
       },
       {
         "wordIndex": 6,
@@ -16355,7 +16333,7 @@
       },
       {
         "wordIndex": 10,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 11,
@@ -16433,11 +16411,11 @@
       "1 question mark"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 7",
+      "Word Types: Nouns: 6",
       "Verbs: 6",
-      "Adjectives: 8",
-      "Adverbs: 1",
-      "Prepositions: 4"
+      "Adjectives: 9",
+      "Adverbs: 2",
+      "Prepositions: 3"
     ]
   },
   {
@@ -16758,7 +16736,7 @@
       },
       {
         "wordIndex": 31,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 32,
@@ -16782,9 +16760,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 7",
+      "Word Types: Nouns: 6",
       "Verbs: 5",
-      "Adjectives: 3",
+      "Adjectives: 4",
       "Adverbs: 4",
       "Prepositions: 5"
     ]
@@ -16859,7 +16837,7 @@
       },
       {
         "wordIndex": 5,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 6,
@@ -16867,7 +16845,7 @@
       },
       {
         "wordIndex": 7,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 8,
@@ -16950,9 +16928,9 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 8",
+      "Word Types: Nouns: 6",
       "Verbs: 7",
-      "Adjectives: 1",
+      "Adjectives: 3",
       "Adverbs: 5",
       "Prepositions: 3"
     ]
@@ -17071,7 +17049,7 @@
       },
       {
         "wordIndex": 11,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 12,
@@ -17099,7 +17077,7 @@
       },
       {
         "wordIndex": 19,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 20,
@@ -17148,9 +17126,9 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 9",
       "Verbs: 5",
-      "Adjectives: 6",
+      "Adjectives: 8",
       "Adverbs: 2",
       "Prepositions: 2"
     ]
@@ -17304,7 +17282,7 @@
       },
       {
         "wordIndex": 35,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 36,
@@ -17317,9 +17295,9 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 10",
+      "Word Types: Nouns: 9",
       "Verbs: 5",
-      "Adjectives: 6",
+      "Adjectives: 7",
       "Adverbs: 3",
       "Prepositions: 2"
     ]
@@ -17371,7 +17349,7 @@
       },
       {
         "wordIndex": 2,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 3,
@@ -17459,9 +17437,9 @@
       "3 periods"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 8",
+      "Word Types: Nouns: 7",
       "Verbs: 4",
-      "Adjectives: 6",
+      "Adjectives: 7",
       "Adverbs: 1",
       "Prepositions: 3"
     ]
@@ -17706,10 +17684,6 @@
         "type": "Noun"
       },
       {
-        "wordIndex": 4,
-        "type": "Preposition"
-      },
-      {
         "wordIndex": 7,
         "type": "Verb"
       },
@@ -17719,7 +17693,7 @@
       },
       {
         "wordIndex": 10,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 11,
@@ -17802,11 +17776,11 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 7",
+      "Word Types: Nouns: 6",
       "Verbs: 5",
-      "Adjectives: 6",
+      "Adjectives: 7",
       "Adverbs: 3",
-      "Prepositions: 4"
+      "Prepositions: 3"
     ]
   },
   {
@@ -18256,7 +18230,7 @@
       },
       {
         "wordIndex": 23,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 24,
@@ -18288,7 +18262,7 @@
       },
       {
         "wordIndex": 34,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 35,
@@ -18301,9 +18275,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
+      "Word Types: Nouns: 7",
       "Verbs: 6",
-      "Adjectives: 6",
+      "Adjectives: 8",
       "Adverbs: 2",
       "Prepositions: 4"
     ]
@@ -18415,11 +18389,11 @@
       },
       {
         "wordIndex": 23,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 24,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 25,
@@ -18479,7 +18453,7 @@
       },
       {
         "wordIndex": 44,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 45,
@@ -18492,9 +18466,9 @@
       "2 periods"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 10",
-      "Verbs: 9",
-      "Adjectives: 8",
+      "Word Types: Nouns: 8",
+      "Verbs: 8",
+      "Adjectives: 11",
       "Adverbs: 4",
       "Prepositions: 3"
     ]
@@ -18582,7 +18556,7 @@
       },
       {
         "wordIndex": 8,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 9,
@@ -18590,7 +18564,7 @@
       },
       {
         "wordIndex": 10,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 11,
@@ -18690,9 +18664,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
-      "Verbs: 7",
-      "Adjectives: 6",
+      "Word Types: Nouns: 8",
+      "Verbs: 6",
+      "Adjectives: 8",
       "Adverbs: 4",
       "Prepositions: 4"
     ]
@@ -18778,7 +18752,7 @@
       },
       {
         "wordIndex": 4,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 5,
@@ -18898,8 +18872,8 @@
     ],
     "wordTypeHintLines": [
       "Word Types: Nouns: 9",
-      "Verbs: 7",
-      "Adjectives: 6",
+      "Verbs: 6",
+      "Adjectives: 7",
       "Adverbs: 3",
       "Prepositions: 5"
     ]
@@ -19075,10 +19049,6 @@
       {
         "wordIndex": 37,
         "type": "Preposition"
-      },
-      {
-        "wordIndex": 38,
-        "type": "Noun"
       }
     ],
     "hintLines": [
@@ -19088,7 +19058,7 @@
       "2 hyphens"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
+      "Word Types: Nouns: 8",
       "Verbs: 7",
       "Adjectives: 7",
       "Adverbs: 3",
@@ -19326,7 +19296,7 @@
       },
       {
         "wordIndex": 13,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 14,
@@ -19408,9 +19378,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
+      "Word Types: Nouns: 8",
       "Verbs: 7",
-      "Adjectives: 4",
+      "Adjectives: 5",
       "Adverbs: 4",
       "Prepositions: 3"
     ]
@@ -19557,7 +19527,7 @@
       },
       {
         "wordIndex": 32,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 33,
@@ -19604,9 +19574,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
+      "Word Types: Nouns: 8",
       "Verbs: 8",
-      "Adjectives: 8",
+      "Adjectives: 9",
       "Adverbs: 3",
       "Prepositions: 3"
     ]
@@ -19680,11 +19650,11 @@
       },
       {
         "wordIndex": 6,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 7,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 8,
@@ -19692,7 +19662,7 @@
       },
       {
         "wordIndex": 9,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 10,
@@ -19712,7 +19682,7 @@
       },
       {
         "wordIndex": 17,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 18,
@@ -19787,9 +19757,9 @@
       "1 exclamation mark"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
-      "Verbs: 9",
-      "Adjectives: 5",
+      "Word Types: Nouns: 7",
+      "Verbs: 7",
+      "Adjectives: 9",
       "Adverbs: 2",
       "Prepositions: 4"
     ]
@@ -19907,7 +19877,7 @@
       },
       {
         "wordIndex": 16,
-        "type": "Adverb"
+        "type": "Preposition"
       },
       {
         "wordIndex": 17,
@@ -19989,8 +19959,8 @@
       "Word Types: Nouns: 7",
       "Verbs: 7",
       "Adjectives: 5",
-      "Adverbs: 4",
-      "Prepositions: 5"
+      "Adverbs: 3",
+      "Prepositions: 6"
     ]
   },
   {
@@ -20078,7 +20048,7 @@
       },
       {
         "wordIndex": 6,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 7,
@@ -20146,7 +20116,7 @@
       },
       {
         "wordIndex": 31,
-        "type": "Preposition"
+        "type": "Adverb"
       },
       {
         "wordIndex": 32,
@@ -20155,6 +20125,10 @@
       {
         "wordIndex": 33,
         "type": "Preposition"
+      },
+      {
+        "wordIndex": 34,
+        "type": "Noun"
       },
       {
         "wordIndex": 36,
@@ -20212,9 +20186,9 @@
     "wordTypeHintLines": [
       "Word Types: Nouns: 11",
       "Verbs: 8",
-      "Adjectives: 5",
-      "Adverbs: 5",
-      "Prepositions: 5"
+      "Adjectives: 6",
+      "Adverbs: 6",
+      "Prepositions: 4"
     ]
   },
   {
@@ -20538,7 +20512,7 @@
       },
       {
         "wordIndex": 12,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 13,
@@ -20550,23 +20524,23 @@
       },
       {
         "wordIndex": 16,
-        "type": "Verb"
+        "type": "Adverb"
       },
       {
         "wordIndex": 17,
-        "type": "Noun"
-      },
-      {
-        "wordIndex": 20,
-        "type": "Noun"
-      },
-      {
-        "wordIndex": 21,
         "type": "Verb"
       },
       {
+        "wordIndex": 20,
+        "type": "Adjective"
+      },
+      {
+        "wordIndex": 21,
+        "type": "Noun"
+      },
+      {
         "wordIndex": 22,
-        "type": "Adverb"
+        "type": "Verb"
       },
       {
         "wordIndex": 24,
@@ -20574,7 +20548,7 @@
       },
       {
         "wordIndex": 25,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 27,
@@ -20582,7 +20556,7 @@
       },
       {
         "wordIndex": 28,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 29,
@@ -20590,19 +20564,15 @@
       },
       {
         "wordIndex": 30,
-        "type": "Verb"
+        "type": "Noun"
       },
       {
         "wordIndex": 31,
-        "type": "Adverb"
+        "type": "Verb"
       },
       {
         "wordIndex": 32,
-        "type": "Adjective"
-      },
-      {
-        "wordIndex": 33,
-        "type": "Preposition"
+        "type": "Adverb"
       },
       {
         "wordIndex": 35,
@@ -20610,7 +20580,7 @@
       },
       {
         "wordIndex": 36,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 37,
@@ -20626,11 +20596,11 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 7",
       "Verbs: 6",
-      "Adjectives: 6",
+      "Adjectives: 10",
       "Adverbs: 2",
-      "Prepositions: 2"
+      "Prepositions: 1"
     ]
   },
   {
@@ -20990,7 +20960,7 @@
       },
       {
         "wordIndex": 31,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 33,
@@ -21002,11 +20972,11 @@
       },
       {
         "wordIndex": 36,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 37,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 38,
@@ -21053,9 +21023,9 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
-      "Verbs: 10",
-      "Adjectives: 8",
+      "Word Types: Nouns: 10",
+      "Verbs: 8",
+      "Adjectives: 11",
       "Adverbs: 4",
       "Prepositions: 2"
     ]
@@ -21148,7 +21118,7 @@
       },
       {
         "wordIndex": 7,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 8,
@@ -21168,11 +21138,11 @@
       },
       {
         "wordIndex": 15,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 16,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 17,
@@ -21288,9 +21258,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 15",
-      "Verbs: 9",
-      "Adjectives: 5",
+      "Word Types: Nouns: 13",
+      "Verbs: 8",
+      "Adjectives: 8",
       "Adverbs: 4",
       "Prepositions: 5"
     ]
@@ -21343,11 +21313,11 @@
     "wordTypes": [
       {
         "wordIndex": 1,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 2,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 3,
@@ -21485,9 +21455,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 14",
-      "Verbs: 7",
-      "Adjectives: 7",
+      "Word Types: Nouns: 13",
+      "Verbs: 6",
+      "Adjectives: 9",
       "Adverbs: 2",
       "Prepositions: 4"
     ]
@@ -21580,7 +21550,7 @@
       },
       {
         "wordIndex": 8,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 9,
@@ -21690,9 +21660,9 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 12",
+      "Word Types: Nouns: 11",
       "Verbs: 8",
-      "Adjectives: 3",
+      "Adjectives: 4",
       "Adverbs: 4",
       "Prepositions: 4"
     ]
@@ -21967,7 +21937,7 @@
       },
       {
         "wordIndex": 2,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 3,
@@ -21991,7 +21961,7 @@
       },
       {
         "wordIndex": 9,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 10,
@@ -22031,7 +22001,7 @@
       },
       {
         "wordIndex": 24,
-        "type": "Verb"
+        "type": "Noun"
       },
       {
         "wordIndex": 25,
@@ -22087,8 +22057,8 @@
     ],
     "wordTypeHintLines": [
       "Word Types: Nouns: 11",
-      "Verbs: 7",
-      "Adjectives: 7",
+      "Verbs: 5",
+      "Adjectives: 9",
       "Adverbs: 3",
       "Prepositions: 1"
     ]
@@ -22173,7 +22143,7 @@
       },
       {
         "wordIndex": 10,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 11,
@@ -22270,9 +22240,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 10",
       "Verbs: 5",
-      "Adjectives: 9",
+      "Adjectives: 10",
       "Adverbs: 2",
       "Prepositions: 4"
     ]
@@ -22342,7 +22312,7 @@
       },
       {
         "wordIndex": 4,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 5,
@@ -22452,9 +22422,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 10",
+      "Word Types: Nouns: 9",
       "Verbs: 6",
-      "Adjectives: 7",
+      "Adjectives: 8",
       "Adverbs: 3",
       "Prepositions: 3"
     ]
@@ -22560,7 +22530,7 @@
       },
       {
         "wordIndex": 9,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 10,
@@ -22652,8 +22622,8 @@
     ],
     "wordTypeHintLines": [
       "Word Types: Nouns: 13",
-      "Verbs: 6",
-      "Adjectives: 4",
+      "Verbs: 5",
+      "Adjectives: 5",
       "Adverbs: 0",
       "Prepositions: 5"
     ]
@@ -22751,7 +22721,7 @@
       },
       {
         "wordIndex": 13,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 14,
@@ -22759,7 +22729,7 @@
       },
       {
         "wordIndex": 16,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 17,
@@ -22803,7 +22773,7 @@
       },
       {
         "wordIndex": 31,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 32,
@@ -22839,9 +22809,9 @@
       "3 periods"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 13",
+      "Word Types: Nouns: 10",
       "Verbs: 4",
-      "Adjectives: 6",
+      "Adjectives: 9",
       "Adverbs: 2",
       "Prepositions: 6"
     ]
@@ -22929,7 +22899,7 @@
       },
       {
         "wordIndex": 9,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 10,
@@ -22977,7 +22947,7 @@
       },
       {
         "wordIndex": 26,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 27,
@@ -23036,9 +23006,9 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
-      "Verbs: 6",
-      "Adjectives: 9",
+      "Word Types: Nouns: 8",
+      "Verbs: 5",
+      "Adjectives: 11",
       "Adverbs: 2",
       "Prepositions: 4"
     ]
@@ -23319,7 +23289,7 @@
       },
       {
         "wordIndex": 11,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 12,
@@ -23402,9 +23372,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 10",
       "Verbs: 5",
-      "Adjectives: 6",
+      "Adjectives: 7",
       "Adverbs: 2",
       "Prepositions: 4"
     ]
@@ -23481,7 +23451,7 @@
       },
       {
         "wordIndex": 10,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 11,
@@ -23517,7 +23487,7 @@
       },
       {
         "wordIndex": 24,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 25,
@@ -23551,9 +23521,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 10",
+      "Word Types: Nouns: 8",
       "Verbs: 6",
-      "Adjectives: 3",
+      "Adjectives: 5",
       "Adverbs: 1",
       "Prepositions: 2"
     ]
@@ -23719,10 +23689,6 @@
         "type": "Adjective"
       },
       {
-        "wordIndex": 36,
-        "type": "Preposition"
-      },
-      {
         "wordIndex": 37,
         "type": "Adjective"
       }
@@ -23738,7 +23704,7 @@
       "Verbs: 5",
       "Adjectives: 6",
       "Adverbs: 3",
-      "Prepositions: 6"
+      "Prepositions: 5"
     ]
   },
   {
@@ -23747,7 +23713,7 @@
     "subject": "math",
     "rawText": "now we can place a neat x above the correct number for each measured pencil therell be three marks over the two and one fourth inch label this simple diagram shows our data clearly in a single glance",
     "solutionText": "Now we can place a neat X above the correct number for each measured pencil. There'll be three marks over the two and one fourth inch label. This simple diagram shows our data clearly in a single glance.",
-    "extendedText": "Now we can place a neat X above the correct number for each measured pencil. There'll be three marks over the two and one fourth inch label. This simple diagram shows our data clearly in a single glance.",
+    "extendedText": "Now we can place a neat X above the correct number for each measured pencil. There will be three marks over the two and one fourth inch label. This simple diagram shows our data clearly in a single glance.",
     "totalChangesRequired": 8,
     "grammarRules": [
       {
@@ -23830,70 +23796,70 @@
       },
       {
         "wordIndex": 13,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 14,
         "type": "Noun"
       },
       {
-        "wordIndex": 15,
-        "type": "Verb"
-      },
-      {
         "wordIndex": 16,
         "type": "Verb"
       },
       {
-        "wordIndex": 18,
-        "type": "Noun"
-      },
-      {
-        "wordIndex": 19,
-        "type": "Preposition"
-      },
-      {
-        "wordIndex": 24,
-        "type": "Noun"
-      },
-      {
-        "wordIndex": 25,
-        "type": "Noun"
-      },
-      {
-        "wordIndex": 26,
-        "type": "Noun"
-      },
-      {
-        "wordIndex": 28,
-        "type": "Adjective"
-      },
-      {
-        "wordIndex": 29,
-        "type": "Noun"
-      },
-      {
-        "wordIndex": 30,
+        "wordIndex": 17,
         "type": "Verb"
       },
       {
-        "wordIndex": 32,
+        "wordIndex": 19,
         "type": "Noun"
       },
       {
-        "wordIndex": 33,
-        "type": "Adverb"
-      },
-      {
-        "wordIndex": 34,
+        "wordIndex": 20,
         "type": "Preposition"
       },
       {
-        "wordIndex": 36,
+        "wordIndex": 25,
         "type": "Adjective"
       },
       {
+        "wordIndex": 26,
+        "type": "Adjective"
+      },
+      {
+        "wordIndex": 27,
+        "type": "Noun"
+      },
+      {
+        "wordIndex": 29,
+        "type": "Adjective"
+      },
+      {
+        "wordIndex": 30,
+        "type": "Noun"
+      },
+      {
+        "wordIndex": 31,
+        "type": "Verb"
+      },
+      {
+        "wordIndex": 33,
+        "type": "Noun"
+      },
+      {
+        "wordIndex": 34,
+        "type": "Adverb"
+      },
+      {
+        "wordIndex": 35,
+        "type": "Preposition"
+      },
+      {
         "wordIndex": 37,
+        "type": "Adjective"
+      },
+      {
+        "wordIndex": 38,
         "type": "Noun"
       }
     ],
@@ -23903,9 +23869,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 10",
-      "Verbs: 6",
-      "Adjectives: 4",
+      "Word Types: Nouns: 8",
+      "Verbs: 5",
+      "Adjectives: 7",
       "Adverbs: 2",
       "Prepositions: 4"
     ]
@@ -23968,7 +23934,7 @@
     "wordTypes": [
       {
         "wordIndex": 1,
-        "type": "Adverb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 2,
@@ -23976,7 +23942,7 @@
       },
       {
         "wordIndex": 3,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 4,
@@ -24024,7 +23990,7 @@
       },
       {
         "wordIndex": 18,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 19,
@@ -24082,10 +24048,10 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 8",
+      "Word Types: Nouns: 6",
       "Verbs: 7",
-      "Adjectives: 5",
-      "Adverbs: 6",
+      "Adjectives: 8",
+      "Adverbs: 5",
       "Prepositions: 1"
     ]
   },
@@ -24165,7 +24131,7 @@
       },
       {
         "wordIndex": 8,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 9,
@@ -24225,7 +24191,7 @@
       },
       {
         "wordIndex": 30,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 31,
@@ -24237,7 +24203,7 @@
       },
       {
         "wordIndex": 35,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 36,
@@ -24255,9 +24221,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 12",
+      "Word Types: Nouns: 9",
       "Verbs: 6",
-      "Adjectives: 6",
+      "Adjectives: 9",
       "Adverbs: 2",
       "Prepositions: 2"
     ]
@@ -24353,7 +24319,7 @@
       },
       {
         "wordIndex": 8,
-        "type": "Noun"
+        "type": "Adverb"
       },
       {
         "wordIndex": 9,
@@ -24373,7 +24339,7 @@
       },
       {
         "wordIndex": 14,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 15,
@@ -24436,10 +24402,10 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 9",
       "Verbs: 6",
-      "Adjectives: 2",
-      "Adverbs: 3",
+      "Adjectives: 3",
+      "Adverbs: 4",
       "Prepositions: 4"
     ]
   },
@@ -24510,7 +24476,7 @@
       },
       {
         "wordIndex": 2,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 3,
@@ -24526,66 +24492,70 @@
       },
       {
         "wordIndex": 7,
-        "type": "Noun"
-      },
-      {
-        "wordIndex": 8,
         "type": "Preposition"
       },
       {
-        "wordIndex": 10,
+        "wordIndex": 9,
         "type": "Noun"
       },
       {
+        "wordIndex": 10,
+        "type": "Preposition"
+      },
+      {
         "wordIndex": 12,
-        "type": "Verb"
+        "type": "Noun"
       },
       {
         "wordIndex": 14,
         "type": "Verb"
       },
       {
-        "wordIndex": 15,
+        "wordIndex": 16,
+        "type": "Verb"
+      },
+      {
+        "wordIndex": 17,
         "type": "Adverb"
       },
       {
-        "wordIndex": 16,
-        "type": "Preposition"
-      },
-      {
         "wordIndex": 18,
-        "type": "Noun"
+        "type": "Preposition"
       },
       {
-        "wordIndex": 19,
-        "type": "Preposition"
+        "wordIndex": 20,
+        "type": "Noun"
       },
       {
         "wordIndex": 21,
-        "type": "Adjective"
+        "type": "Preposition"
       },
       {
-        "wordIndex": 22,
-        "type": "Noun"
+        "wordIndex": 23,
+        "type": "Adjective"
       },
       {
         "wordIndex": 24,
         "type": "Noun"
       },
       {
-        "wordIndex": 25,
-        "type": "Noun"
-      },
-      {
         "wordIndex": 26,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 27,
-        "type": "Adverb"
+        "type": "Noun"
       },
       {
         "wordIndex": 28,
+        "type": "Verb"
+      },
+      {
+        "wordIndex": 29,
+        "type": "Adverb"
+      },
+      {
+        "wordIndex": 30,
         "type": "Preposition"
       }
     ],
@@ -24596,11 +24566,11 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
+      "Word Types: Nouns: 7",
       "Verbs: 4",
-      "Adjectives: 1",
+      "Adjectives: 3",
       "Adverbs: 2",
-      "Prepositions: 5"
+      "Prepositions: 6"
     ]
   },
   {
@@ -24672,7 +24642,7 @@
       },
       {
         "wordIndex": 6,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 7,
@@ -24773,9 +24743,9 @@
       "3 periods"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
+      "Word Types: Nouns: 8",
       "Verbs: 6",
-      "Adjectives: 6",
+      "Adjectives: 7",
       "Adverbs: 4",
       "Prepositions: 3"
     ]
@@ -24852,7 +24822,7 @@
       },
       {
         "wordIndex": 4,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 5,
@@ -24912,11 +24882,11 @@
       },
       {
         "wordIndex": 28,
-        "type": "Verb"
+        "type": "Noun"
       },
       {
         "wordIndex": 30,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 31,
@@ -24928,7 +24898,7 @@
       },
       {
         "wordIndex": 34,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 35,
@@ -24944,9 +24914,9 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 8",
-      "Verbs: 7",
-      "Adjectives: 1",
+      "Word Types: Nouns: 6",
+      "Verbs: 6",
+      "Adjectives: 4",
       "Adverbs: 2",
       "Prepositions: 4"
     ]
@@ -25009,11 +24979,11 @@
     "wordTypes": [
       {
         "wordIndex": 1,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 2,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 3,
@@ -25053,7 +25023,7 @@
       },
       {
         "wordIndex": 16,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 17,
@@ -25061,7 +25031,7 @@
       },
       {
         "wordIndex": 20,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 21,
@@ -25123,9 +25093,9 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 13",
+      "Word Types: Nouns: 9",
       "Verbs: 6",
-      "Adjectives: 2",
+      "Adjectives: 6",
       "Adverbs: 1",
       "Prepositions: 5"
     ]
@@ -25422,6 +25392,10 @@
         "type": "Noun"
       },
       {
+        "wordIndex": 8,
+        "type": "Adverb"
+      },
+      {
         "wordIndex": 10,
         "type": "Verb"
       },
@@ -25522,7 +25496,7 @@
       "Word Types: Nouns: 11",
       "Verbs: 7",
       "Adjectives: 7",
-      "Adverbs: 2",
+      "Adverbs: 3",
       "Prepositions: 2"
     ]
   },
@@ -25805,7 +25779,7 @@
       },
       {
         "wordIndex": 11,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 12,
@@ -25833,7 +25807,7 @@
       },
       {
         "wordIndex": 21,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 22,
@@ -25891,9 +25865,9 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 9",
       "Verbs: 6",
-      "Adjectives: 7",
+      "Adjectives: 9",
       "Adverbs: 3",
       "Prepositions: 2"
     ]
@@ -25990,7 +25964,7 @@
       },
       {
         "wordIndex": 14,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 15,
@@ -26054,7 +26028,7 @@
       },
       {
         "wordIndex": 34,
-        "type": "Preposition"
+        "type": "Adverb"
       },
       {
         "wordIndex": 35,
@@ -26075,11 +26049,11 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 10",
       "Verbs: 4",
-      "Adjectives: 7",
-      "Adverbs: 4",
-      "Prepositions: 5"
+      "Adjectives: 8",
+      "Adverbs: 5",
+      "Prepositions: 4"
     ]
   },
   {
@@ -26215,7 +26189,7 @@
       },
       {
         "wordIndex": 24,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 25,
@@ -26274,9 +26248,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 8",
+      "Word Types: Nouns: 7",
       "Verbs: 7",
-      "Adjectives: 6",
+      "Adjectives: 7",
       "Adverbs: 4",
       "Prepositions: 3"
     ]
@@ -26351,7 +26325,7 @@
       },
       {
         "wordIndex": 5,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 6,
@@ -26415,7 +26389,7 @@
       },
       {
         "wordIndex": 25,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 26,
@@ -26477,9 +26451,9 @@
       "2 periods"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 10",
+      "Word Types: Nouns: 8",
       "Verbs: 9",
-      "Adjectives: 8",
+      "Adjectives: 10",
       "Adverbs: 3",
       "Prepositions: 3"
     ]
@@ -26569,7 +26543,7 @@
       },
       {
         "wordIndex": 4,
-        "type": "Preposition"
+        "type": "Adverb"
       },
       {
         "wordIndex": 6,
@@ -26581,7 +26555,7 @@
       },
       {
         "wordIndex": 9,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 10,
@@ -26637,7 +26611,7 @@
       },
       {
         "wordIndex": 25,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 26,
@@ -26662,6 +26636,10 @@
       {
         "wordIndex": 33,
         "type": "Adverb"
+      },
+      {
+        "wordIndex": 34,
+        "type": "Preposition"
       },
       {
         "wordIndex": 36,
@@ -26692,10 +26670,10 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 12",
-      "Verbs: 7",
-      "Adjectives: 7",
-      "Adverbs: 4",
+      "Word Types: Nouns: 11",
+      "Verbs: 6",
+      "Adjectives: 9",
+      "Adverbs: 5",
       "Prepositions: 2"
     ]
   },
@@ -27341,7 +27319,7 @@
       },
       {
         "wordIndex": 7,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 8,
@@ -27417,8 +27395,8 @@
     ],
     "wordTypeHintLines": [
       "Word Types: Nouns: 9",
-      "Verbs: 5",
-      "Adjectives: 3",
+      "Verbs: 4",
+      "Adjectives: 4",
       "Adverbs: 1",
       "Prepositions: 4"
     ]
@@ -27531,7 +27509,7 @@
       },
       {
         "wordIndex": 22,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 23,
@@ -27593,9 +27571,9 @@
       "1 comma"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 10",
+      "Word Types: Nouns: 9",
       "Verbs: 8",
-      "Adjectives: 8",
+      "Adjectives: 9",
       "Adverbs: 0",
       "Prepositions: 3"
     ]
@@ -27743,7 +27721,7 @@
       },
       {
         "wordIndex": 26,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 27,
@@ -27794,9 +27772,9 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 10",
       "Verbs: 8",
-      "Adjectives: 7",
+      "Adjectives: 8",
       "Adverbs: 2",
       "Prepositions: 3"
     ]
@@ -27896,7 +27874,7 @@
       },
       {
         "wordIndex": 11,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 12,
@@ -27990,9 +27968,9 @@
       "3 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 10",
       "Verbs: 7",
-      "Adjectives: 6",
+      "Adjectives: 7",
       "Adverbs: 2",
       "Prepositions: 4"
     ]
@@ -28116,7 +28094,7 @@
       },
       {
         "wordIndex": 21,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 22,
@@ -28128,7 +28106,7 @@
       },
       {
         "wordIndex": 24,
-        "type": "Preposition"
+        "type": "Adverb"
       },
       {
         "wordIndex": 25,
@@ -28199,11 +28177,11 @@
       "3 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
+      "Word Types: Nouns: 8",
       "Verbs: 9",
-      "Adjectives: 6",
-      "Adverbs: 3",
-      "Prepositions: 6"
+      "Adjectives: 7",
+      "Adverbs: 4",
+      "Prepositions: 5"
     ]
   },
   {
@@ -28283,7 +28261,7 @@
       },
       {
         "wordIndex": 9,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 10,
@@ -28347,7 +28325,7 @@
       },
       {
         "wordIndex": 30,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 31,
@@ -28384,9 +28362,9 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 13",
-      "Verbs: 7",
-      "Adjectives: 6",
+      "Word Types: Nouns: 12",
+      "Verbs: 6",
+      "Adjectives: 8",
       "Adverbs: 1",
       "Prepositions: 3"
     ]
@@ -28816,7 +28794,7 @@
       },
       {
         "wordIndex": 5,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 6,
@@ -28906,9 +28884,9 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
+      "Word Types: Nouns: 10",
       "Verbs: 5",
-      "Adjectives: 5",
+      "Adjectives: 6",
       "Adverbs: 1",
       "Prepositions: 3"
     ]
@@ -29074,7 +29052,7 @@
       },
       {
         "wordIndex": 41,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 42,
@@ -29088,9 +29066,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 13",
+      "Word Types: Nouns: 12",
       "Verbs: 7",
-      "Adjectives: 3",
+      "Adjectives: 4",
       "Adverbs: 2",
       "Prepositions: 4"
     ]
@@ -29188,7 +29166,7 @@
       },
       {
         "wordIndex": 15,
-        "type": "Adverb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 18,
@@ -29284,8 +29262,8 @@
     "wordTypeHintLines": [
       "Word Types: Nouns: 10",
       "Verbs: 7",
-      "Adjectives: 7",
-      "Adverbs: 3",
+      "Adjectives: 8",
+      "Adverbs: 2",
       "Prepositions: 5"
     ]
   },
@@ -29448,7 +29426,7 @@
       },
       {
         "wordIndex": 34,
-        "type": "Preposition"
+        "type": "Adverb"
       },
       {
         "wordIndex": 35,
@@ -29474,8 +29452,8 @@
       "Word Types: Nouns: 9",
       "Verbs: 6",
       "Adjectives: 7",
-      "Adverbs: 1",
-      "Prepositions: 5"
+      "Adverbs: 2",
+      "Prepositions: 4"
     ]
   },
   {
@@ -29749,11 +29727,7 @@
       },
       {
         "wordIndex": 9,
-        "type": "Noun"
-      },
-      {
-        "wordIndex": 9,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 10,
@@ -29844,9 +29818,9 @@
       "1 comma"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 7",
-      "Verbs: 10",
-      "Adjectives: 7",
+      "Word Types: Nouns: 6",
+      "Verbs: 9",
+      "Adjectives: 8",
       "Adverbs: 1",
       "Prepositions: 3"
     ]
@@ -29981,7 +29955,7 @@
       },
       {
         "wordIndex": 18,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 19,
@@ -30032,9 +30006,9 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
+      "Word Types: Nouns: 8",
       "Verbs: 5",
-      "Adjectives: 5",
+      "Adjectives: 6",
       "Adverbs: 3",
       "Prepositions: 2"
     ]
@@ -30172,7 +30146,7 @@
       },
       {
         "wordIndex": 29,
-        "type": "Preposition"
+        "type": "Adverb"
       },
       {
         "wordIndex": 31,
@@ -30192,7 +30166,7 @@
       },
       {
         "wordIndex": 36,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 37,
@@ -30206,11 +30180,11 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 8",
+      "Word Types: Nouns: 7",
       "Verbs: 5",
-      "Adjectives: 6",
-      "Adverbs: 4",
-      "Prepositions: 4"
+      "Adjectives: 7",
+      "Adverbs: 5",
+      "Prepositions: 3"
     ]
   },
   {
@@ -30358,7 +30332,7 @@
       },
       {
         "wordIndex": 26,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 27,
@@ -30373,9 +30347,9 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 8",
+      "Word Types: Nouns: 7",
       "Verbs: 5",
-      "Adjectives: 4",
+      "Adjectives: 5",
       "Adverbs: 1",
       "Prepositions: 2"
     ]
@@ -30677,7 +30651,7 @@
       },
       {
         "wordIndex": 28,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 29,
@@ -30689,9 +30663,9 @@
       "3 periods"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 9",
+      "Word Types: Nouns: 8",
       "Verbs: 6",
-      "Adjectives: 7",
+      "Adjectives: 8",
       "Adverbs: 1",
       "Prepositions: 2"
     ]
@@ -30773,7 +30747,7 @@
       },
       {
         "wordIndex": 7,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 8,
@@ -30884,8 +30858,8 @@
     ],
     "wordTypeHintLines": [
       "Word Types: Nouns: 13",
-      "Verbs: 6",
-      "Adjectives: 8",
+      "Verbs: 5",
+      "Adjectives: 9",
       "Adverbs: 2",
       "Prepositions: 3"
     ]
@@ -31297,6 +31271,10 @@
         "type": "Adjective"
       },
       {
+        "wordIndex": 43,
+        "type": "Adverb"
+      },
+      {
         "wordIndex": 45,
         "type": "Adjective"
       },
@@ -31336,7 +31314,7 @@
       "Word Types: Nouns: 10",
       "Verbs: 9",
       "Adjectives: 10",
-      "Adverbs: 3",
+      "Adverbs: 4",
       "Prepositions: 4"
     ]
   },
@@ -31426,7 +31404,7 @@
       },
       {
         "wordIndex": 11,
-        "type": "Adverb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 12,
@@ -31547,8 +31525,8 @@
     "wordTypeHintLines": [
       "Word Types: Nouns: 10",
       "Verbs: 6",
-      "Adjectives: 12",
-      "Adverbs: 3",
+      "Adjectives: 13",
+      "Adverbs: 2",
       "Prepositions: 4"
     ]
   },
@@ -31668,7 +31646,7 @@
       },
       {
         "wordIndex": 16,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 17,
@@ -31755,9 +31733,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 13",
+      "Word Types: Nouns: 12",
       "Verbs: 6",
-      "Adjectives: 7",
+      "Adjectives: 8",
       "Adverbs: 2",
       "Prepositions: 4"
     ]
@@ -31838,7 +31816,7 @@
       },
       {
         "wordIndex": 9,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 10,
@@ -31858,7 +31836,7 @@
       },
       {
         "wordIndex": 17,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 18,
@@ -31943,9 +31921,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 10",
+      "Word Types: Nouns: 8",
       "Verbs: 11",
-      "Adjectives: 7",
+      "Adjectives: 9",
       "Adverbs: 1",
       "Prepositions: 3"
     ]
@@ -32230,7 +32208,7 @@
       },
       {
         "wordIndex": 7,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 8,
@@ -32246,7 +32224,7 @@
       },
       {
         "wordIndex": 12,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 13,
@@ -32320,9 +32298,9 @@
       "2 quotation marks"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 10",
+      "Word Types: Nouns: 8",
       "Verbs: 5",
-      "Adjectives: 6",
+      "Adjectives: 8",
       "Adverbs: 4",
       "Prepositions: 1"
     ]
@@ -32430,7 +32408,7 @@
       },
       {
         "wordIndex": 13,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 14,
@@ -32438,7 +32416,7 @@
       },
       {
         "wordIndex": 17,
-        "type": "Adjective"
+        "type": "Noun"
       },
       {
         "wordIndex": 18,
@@ -32623,7 +32601,7 @@
       },
       {
         "wordIndex": 7,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 10,
@@ -32635,7 +32613,7 @@
       },
       {
         "wordIndex": 13,
-        "type": "Adverb"
+        "type": "Preposition"
       },
       {
         "wordIndex": 14,
@@ -32687,7 +32665,7 @@
       },
       {
         "wordIndex": 34,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 35,
@@ -32715,7 +32693,7 @@
       },
       {
         "wordIndex": 43,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 44,
@@ -32750,11 +32728,11 @@
       "3 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 11",
-      "Verbs: 11",
-      "Adjectives: 6",
-      "Adverbs: 6",
-      "Prepositions: 2"
+      "Word Types: Nouns: 10",
+      "Verbs: 9",
+      "Adjectives: 9",
+      "Adverbs: 5",
+      "Prepositions: 3"
     ]
   },
   {
@@ -32833,7 +32811,7 @@
       },
       {
         "wordIndex": 9,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 10,
@@ -32922,9 +32900,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 10",
+      "Word Types: Nouns: 9",
       "Verbs: 7",
-      "Adjectives: 7",
+      "Adjectives: 8",
       "Adverbs: 2",
       "Prepositions: 2"
     ]
@@ -33017,7 +32995,7 @@
       },
       {
         "wordIndex": 7,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 8,
@@ -33104,9 +33082,9 @@
       "2 apostrophes"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 10",
+      "Word Types: Nouns: 9",
       "Verbs: 7",
-      "Adjectives: 5",
+      "Adjectives: 6",
       "Adverbs: 2",
       "Prepositions: 1"
     ]
@@ -33186,7 +33164,7 @@
       },
       {
         "wordIndex": 6,
-        "type": "Verb"
+        "type": "Adjective"
       },
       {
         "wordIndex": 7,
@@ -33305,8 +33283,8 @@
     ],
     "wordTypeHintLines": [
       "Word Types: Nouns: 10",
-      "Verbs: 8",
-      "Adjectives: 6",
+      "Verbs: 7",
+      "Adjectives: 7",
       "Adverbs: 3",
       "Prepositions: 4"
     ]
@@ -33407,11 +33385,11 @@
       },
       {
         "wordIndex": 10,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 11,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 12,
@@ -33507,7 +33485,7 @@
       },
       {
         "wordIndex": 45,
-        "type": "Adverb"
+        "type": "Preposition"
       },
       {
         "wordIndex": 46,
@@ -33522,11 +33500,11 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 12",
+      "Word Types: Nouns: 10",
       "Verbs: 7",
-      "Adjectives: 8",
-      "Adverbs: 4",
-      "Prepositions: 3"
+      "Adjectives: 10",
+      "Adverbs: 3",
+      "Prepositions: 4"
     ]
   },
   {
@@ -33874,7 +33852,7 @@
       },
       {
         "wordIndex": 28,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 29,
@@ -33914,7 +33892,7 @@
       },
       {
         "wordIndex": 41,
-        "type": "Noun"
+        "type": "Adjective"
       },
       {
         "wordIndex": 42,
@@ -33928,9 +33906,9 @@
       "1 apostrophe"
     ],
     "wordTypeHintLines": [
-      "Word Types: Nouns: 12",
+      "Word Types: Nouns: 10",
       "Verbs: 5",
-      "Adjectives: 8",
+      "Adjectives: 10",
       "Adverbs: 3",
       "Prepositions: 4"
     ]
